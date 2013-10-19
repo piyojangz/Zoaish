@@ -22,6 +22,7 @@ public class ListItem {
     public static String KEY_MYMESSAGETITLE = "KEY_MYMESSAGETITLE";
     public static String KEY_MYMESSAGEITEMID = "KEY_MYMESSAGEITEMID";
     public static String KEY_MYMESSAGEDESC = "KEY_MYMESSAGEDESC";
+
     public ListItem() {
 
 
