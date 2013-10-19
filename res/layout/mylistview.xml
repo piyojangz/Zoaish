@@ -1,0 +1,35 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myfeed_drawer_layout"
+    android:background="@color/floor_gray"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:id="@+id/Myfeed_frame"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:background="#dcdcdc">
+
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:divider="#00000000"
+            android:id="@+id/myfeed_listView"
+            android:choiceMode="singleChoice"/>
+        <RelativeLayout
+            android:layout_width="260dp"
+            android:id="@+id/customloadingGround"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:visibility="invisible"
+            android:background="@color/c50pertransparent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+</android.support.v4.widget.DrawerLayout>

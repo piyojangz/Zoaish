@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dip"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <TextView
+        android:text="message"
+        android:textAlignment="center"
+        android:textSize="16dip"
+        android:textStyle="normal"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/tab_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp" />
+
+    <LinearLayout
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/bg_msg"
+        android:layout_toRightOf="@+id/tab_title"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp">
+
+        <TextView
+            android:text="22"
+            android:textAlignment="center"
+            android:textSize="18dip"
+            android:textColor="#ffffff"
+            android:textStyle="normal"
+            android:gravity="center"
+            android:id="@+id/txt_countTabsMsg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</RelativeLayout>
