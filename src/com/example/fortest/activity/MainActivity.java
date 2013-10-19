@@ -1,6 +1,8 @@
 package com.example.fortest.activity;
+
 import java.util.ArrayList;
 import java.util.HashMap;
+
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.TabActivity;
@@ -26,6 +28,7 @@ import android.widget.TabHost;
 import android.graphics.Bitmap;
 import android.graphics.drawable.*;
 import android.widget.TextView;
+
 import com.example.fortest.custom.MenuAdapter;
 import com.example.fortest.custom.LazyAdapter;
 import com.example.fortest.ListItem;
@@ -73,7 +76,6 @@ public class MainActivity extends TabActivity {
         // set a custom shadow that overlays the main content when the drawer opens
         mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
         // set up the drawer's list view with items and click listener
-
         mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
         imgProfile = (ImageView) findViewById(R.id.imgProfile);
         imageBgProfile = (ImageView) findViewById(R.id.imageBgProfile);
@@ -89,29 +91,20 @@ public class MainActivity extends TabActivity {
         setAppFont.setAppFont(mContainer, typeFace);
 
         sList = new ArrayList<HashMap<String, String>>();
-        String[] menu = {"Home","Feed","Message","Item","Favorite","Logout","Setting"};
-        String[] notification = {"0","23","13","2","0","0","0"};
-        String[] img = {"ic_home","ic_feed","ic_message","ic_item","ic_boardpin","ic_logout","ic_setting2"};
-        for(int i = 0 ; i < menu.length ; i++){
+        String[] menu = {"Home", "Feed", "Message", "Item", "Favorite", "Logout", "Setting"};
+        String[] notification = {"0", "23", "13", "2", "0", "0", "0"};
+        String[] img = {"ic_home", "ic_feed", "ic_message", "ic_item", "ic_boardpin", "ic_logout", "ic_setting2"};
+        for (int i = 0; i < menu.length; i++) {
             map = new HashMap<String, String>();
-            map.put(ListItem.KEY_TITLE,menu[i]);
-            map.put(ListItem.KEY_IMG,img[i]);
-            map.put(ListItem.KEY_NOTIFICAIONCOUNT,notification[i]);
+            map.put(ListItem.KEY_TITLE, menu[i]);
+            map.put(ListItem.KEY_IMG, img[i]);
+            map.put(ListItem.KEY_NOTIFICAIONCOUNT, notification[i]);
             sList.add(map);
         }
         Menuadapter = new MenuAdapter(this, sList);
         mDrawerList.setAdapter(Menuadapter);
-       // mDrawerList.setAdapter(new ArrayAdapter<String>(this,
-               // R.layout.mylist, mMenuTitles));
-
-
-
-
-
-
-
-
-
+        // mDrawerList.setAdapter(new ArrayAdapter<String>(this,
+        // R.layout.mylist, mMenuTitles));
 
         sList = new ArrayList<HashMap<String, String>>();
         //####################################################################################################
@@ -248,8 +241,9 @@ public class MainActivity extends TabActivity {
         // Handle action buttons
         switch (item.getItemId()) {
             case R.id.action_more:
-                Log.d(TAG, "action_more = Clicked");
+                Log.d(TAG, "action_more");
                 return true;
+
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -270,11 +264,8 @@ public class MainActivity extends TabActivity {
         args.putInt(PlanetFragment.ARG_MENU_NUMBER, position);
         Log.d(TAG, "position = " + position);
         fragment.setArguments(args);
-
         FragmentManager fragmentManager = getFragmentManager();
-
         fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit();
-
         // update selected item and title, then close the drawer
         mDrawerList.setItemChecked(position, true);
         setTitle(mMenuTitles[position]);
@@ -330,16 +321,23 @@ public class MainActivity extends TabActivity {
                     myfeedActivity objfeedact = new myfeedActivity();
                     rootView = inflater.inflate(R.layout.mylistview, container, false);
                     myfeedActivity.userid = "90999900";
-                    lv = (ListView)rootView.findViewById(R.id.myfeed_listView);
-                    objfeedact.create_feed(this.getActivity(),this.getActivity(),lv,rootView);
+                    lv = (ListView) rootView.findViewById(R.id.myfeed_listView);
+                    objfeedact.create_feed(this.getActivity(), this.getActivity(), lv, rootView);
                     break;
 //testSVN2
                 case 2:
                     mymessageActivity objmsgact = new mymessageActivity();
                     rootView = inflater.inflate(R.layout.mylistview, container, false);
                     mymessageActivity.userid = "90999900";
-                    lv = (ListView)rootView.findViewById(R.id.myfeed_listView);
-                    objmsgact.create_feed(this.getActivity(),this.getActivity(),lv,rootView);
+                    lv = (ListView) rootView.findViewById(R.id.myfeed_listView);
+                    objmsgact.create_feed(this.getActivity(), this.getActivity(), lv, rootView);
+                    break;
+                case 3:
+                    itemActivity objitemact = new itemActivity();
+                    rootView = inflater.inflate(R.layout.mylistview, container, false);
+                    itemActivity.userid = "90999900";
+                    lv = (ListView) rootView.findViewById(R.id.myfeed_listView);
+                    objitemact.create_feed(this.getActivity(), this.getActivity(), lv, rootView);
                     break;
                 default:
                     rootView = inflater.inflate(R.layout.fragment_planet, container, false);
