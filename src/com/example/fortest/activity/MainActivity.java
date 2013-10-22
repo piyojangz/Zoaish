@@ -70,7 +70,7 @@ public class MainActivity extends Activity {
         typeFace = Typeface.createFromAsset(this.getAssets(), "fonts/HelveticaNeueLight.ttf");
         setAppFont.setAppFont(mContainer, typeFace);
         sList = new ArrayList<HashMap<String, String>>();
-        String[] menu = {"Home", "Feed", "Message", "Item", "Favorite", "Logout", "Setting"};
+        String[] menu = {"Home", "Feed", "Message", "Item", "Favorite", "Login", "Setting"};
         String[] notification = {"0", "23", "13", "2", "0", "0", "0"};
         String[] img = {"ic_home", "ic_feed", "ic_message", "ic_item", "ic_boardpin", "ic_logout", "ic_setting2"};
         mMenuTitles = menu;
@@ -233,6 +233,12 @@ public class MainActivity extends Activity {
                     rootView = inflater.inflate(R.layout.mylistview, container, false);
                     lv = (ListView) rootView.findViewById(R.id.myfeed_listView);
                     objmsgact.create_feed(this.getActivity(), this.getActivity(), lv, rootView);
+                    break;
+                case 5:
+                    loginActivity objloginact = new loginActivity();
+                    rootView = inflater.inflate(R.layout.login, container, false);
+                    //lv = (ListView) rootView.findViewById(R.id.myfeed_listView);
+                  //  objloginact.create_feed(this.getActivity(), this.getActivity(), lv, rootView);
                     break;
                 default:
                     rootView = inflater.inflate(R.layout.fragment_planet, container, false);

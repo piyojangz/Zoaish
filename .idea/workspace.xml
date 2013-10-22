@@ -54,60 +54,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcca8f5a-134a-47a9-9766-333875a7be3a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/Blur.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/Blur.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/helper/GifMovieView.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/helper/GifMovieView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/ImageHelper.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/ImageHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/ImageUtils.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/ImageUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/activity/ItemsActivity.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/activity/ItemsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/custom/LazyAdapter.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/custom/LazyAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/ListItem.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/ListItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/easyfacebookandroidsdk_2.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/login.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/fortest/activity/loginActivity.java" />
+      <change type="DELETED" beforePath="D:\Zoaish\.idea\libraries\libs2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Zoaish\.idea\libraries\libs3.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/activity/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/activity/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/custom/MenuAdapter.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/custom/MenuAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/MyScaler.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/MyScaler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/PictureLayout.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/PictureLayout.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/ScrollableImageView.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/ScrollableImageView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/ShowAnim.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/ShowAnim.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/TopCenterImageView.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/TopCenterImageView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/ViewUtils.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/ViewUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Zoaish.iml" afterPath="$PROJECT_DIR$/Zoaish.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/ab_background_textured_example.xml" afterPath="$PROJECT_DIR$/res/drawable/ab_background_textured_example.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/bg.xml" afterPath="$PROJECT_DIR$/res/drawable/bg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/btn_cab_done_example.xml" afterPath="$PROJECT_DIR$/res/drawable/btn_cab_done_example.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/cardlist_row1.xml" afterPath="$PROJECT_DIR$/res/layout/cardlist_row1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/cardlist_row2.xml" afterPath="$PROJECT_DIR$/res/layout/cardlist_row2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/chatradian1.xml" afterPath="$PROJECT_DIR$/res/drawable/chatradian1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/chatradian2.xml" afterPath="$PROJECT_DIR$/res/drawable/chatradian2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/color.xml" afterPath="$PROJECT_DIR$/res/values/color.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-sw600dp/dimens.xml" afterPath="$PROJECT_DIR$/res/values-sw600dp/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-sw720dp-land/dimens.xml" afterPath="$PROJECT_DIR$/res/values-sw720dp-land/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/dividerheight.xml" afterPath="$PROJECT_DIR$/res/drawable/dividerheight.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/drop_shadow.xml" afterPath="$PROJECT_DIR$/res/drawable/drop_shadow.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/fragment_planet.xml" afterPath="$PROJECT_DIR$/res/layout/fragment_planet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/gradient_bg.xml" afterPath="$PROJECT_DIR$/res/drawable/gradient_bg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/gradient_bg_1.xml" afterPath="$PROJECT_DIR$/res/drawable/gradient_bg_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/gradient_bg_hover.xml" afterPath="$PROJECT_DIR$/res/drawable/gradient_bg_hover.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/image_bg.xml" afterPath="$PROJECT_DIR$/res/drawable/image_bg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/list_selector.xml" afterPath="$PROJECT_DIR$/res/drawable/list_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/listmenu_selector.xml" afterPath="$PROJECT_DIR$/res/drawable/listmenu_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/activity/myfeedActivity.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/activity/myfeedActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/custom/myfeedAdapter.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/custom/myfeedAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/mylist.xml" afterPath="$PROJECT_DIR$/res/layout/mylist.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/mylistview.xml" afterPath="$PROJECT_DIR$/res/layout/mylistview.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/activity/mymessageActivity.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/activity/mymessageActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/custom/mymessageAdapter.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/custom/mymessageAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/pressed_background_example.xml" afterPath="$PROJECT_DIR$/res/drawable/pressed_background_example.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/progress_horizontal_example.xml" afterPath="$PROJECT_DIR$/res/drawable/progress_horizontal_example.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/anim/push_left_in.xml" afterPath="$PROJECT_DIR$/res/anim/push_left_in.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/anim/push_left_in_80.xml" afterPath="$PROJECT_DIR$/res/anim/push_left_in_80.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/anim/push_left_out.xml" afterPath="$PROJECT_DIR$/res/anim/push_left_out.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/anim/push_right_in.xml" afterPath="$PROJECT_DIR$/res/anim/push_right_in.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/anim/push_right_out.xml" afterPath="$PROJECT_DIR$/res/anim/push_right_out.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/anim/push_right_out_80.xml" afterPath="$PROJECT_DIR$/res/anim/push_right_out_80.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/selectable_background_example.xml" afterPath="$PROJECT_DIR$/res/drawable/selectable_background_example.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/spinner_background_ab_example.xml" afterPath="$PROJECT_DIR$/res/drawable/spinner_background_ab_example.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/styles.xml" afterPath="$PROJECT_DIR$/res/values/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/tab_indicator_ab_example.xml" afterPath="$PROJECT_DIR$/res/drawable/tab_indicator_ab_example.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/android_support_v42.xml" afterPath="$PROJECT_DIR$/.idea/libraries/android_support_v42.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/dexedLibs.xml" afterPath="$PROJECT_DIR$/.idea/libraries/dexedLibs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterPath="$PROJECT_DIR$/.idea/libraries/libs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Zoaish.iws" />
@@ -168,7 +127,7 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://D:/AndroidProject/AndroidPrj_Bk/Zoaish/src/com/example/fortest/ImageUtils.java" line="2" class="ImageUtils.java" package="">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
@@ -190,30 +149,313 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="Zoaish" />
+    <favorites_list name="Zoaish">
+      <favorite_root url="file://$PROJECT_DIR$/libs" module="Zoaish" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/libs/picasso-2.1.0.jar" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode">
+          <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/Cache.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/Stats.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/Utils.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/Action.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/Target.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/Picasso.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/Request.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/Callback.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/LruCache.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/GetAction.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/Dispatcher.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/Downloader.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/FetchAction.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/BitmapHunter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/TargetAction.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/StatsSnapshot.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/RequestCreator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/Transformation.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/ImageViewAction.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/PicassoDrawable.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/FileBitmapHunter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/OkHttpDownloader.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/AssetBitmapHunter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/MarkableInputStream.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/NetworkBitmapHunter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/ResourceBitmapHunter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/DeferredRequestCreator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/PicassoExecutorService.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/UrlConnectionDownloader.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/ContactsPhotoBitmapHunter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/ContentStreamBitmapHunter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/com/squareup/picasso/ContentProviderBitmapHunter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/META-INF" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/META-INF/maven" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/META-INF/maven/com.squareup.picasso" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/META-INF/maven/com.squareup.picasso/picasso" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/META-INF/maven/com.squareup.picasso/picasso/pom.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/META-INF/maven/com.squareup.picasso/picasso/pom.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+              </favorite_root>
+            </favorite_root>
+            <favorite_root url="jar://$PROJECT_DIR$/libs/picasso-2.1.0.jar!/META-INF/MANIFEST.MF" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/libs/android-support-v4.jar" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode">
+          <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/os" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/os/ParcelableCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/os/ParcelableCompatCreatorCallbacks.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/os/ParcelableCompatCreatorHoneycombMR2.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/os/ParcelableCompatCreatorHoneycombMR2Stub.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/Fragment.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/NavUtils.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/NavUtilsJB.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/ShareCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/ListFragment.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/FragmentState.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/LoaderManager.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/ServiceCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/ShareCompatJB.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/ActivityCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/BackStackState.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/DialogFragment.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/ShareCompatICS.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/BackStackRecord.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/FragmentManager.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/FragmentTabHost.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/ActivityCompatJB.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/FragmentActivity.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/TaskStackBuilder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/FragmentContainer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/LoaderManagerImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/NotificationCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/FragmentManagerImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/FragmentTransaction.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/FragmentManagerState.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/FragmentPagerAdapter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/ActionBarDrawerToggle.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/ActivityOptionsCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/NoSaveStateFrameLayout.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/ActivityCompatHoneycomb.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/ActivityOptionsCompatJB.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/SuperNotCalledException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/FragmentStatePagerAdapter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/TaskStackBuilderHoneycomb.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/TaskStackBuilderJellybean.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/NotificationCompatHoneycomb.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/NotificationCompatJellybean.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/ActionBarDrawerToggleHoneycomb.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/NotificationCompatIceCreamSandwich.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/net" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/net/TrafficStatsCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/net/TrafficStatsCompatIcs.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/net/ConnectivityManagerCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/net/ConnectivityManagerCompatJellyBean.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/net/ConnectivityManagerCompatGingerbread.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/net/ConnectivityManagerCompatHoneycombMR2.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/text" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/text/ICUCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/text/ICUCompatIcs.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/text/BidiFormatter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/text/TextUtilsCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/text/TextDirectionHeuristicCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/text/TextDirectionHeuristicsCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/util" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/util/LruCache.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/util/LogWriter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/util/TimeUtils.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/util/AtomicFile.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/util/DebugUtils.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/util/LongSparseArray.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/util/SparseArrayCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/accessibility" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/accessibility/AccessibilityEventCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/accessibility/AccessibilityRecordCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/accessibility/AccessibilityManagerCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/accessibility/AccessibilityEventCompatIcs.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/accessibility/AccessibilityNodeInfoCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/accessibility/AccessibilityRecordCompatIcs.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/accessibility/AccessibilityManagerCompatIcs.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/accessibility/AccessibilityNodeInfoCompatIcs.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/accessibility/AccessibilityNodeProviderCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/accessibility/AccessibilityRecordCompatIcsMr1.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/accessibility/AccessibilityRecordCompatJellyBean.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/accessibility/AccessibilityNodeInfoCompatJellyBean.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/accessibility/AccessibilityNodeInfoCompatJellybeanMr2.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/accessibility/AccessibilityNodeProviderCompatJellyBean.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/ViewPager.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/MenuCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/ViewCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/PagerAdapter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/ViewCompatHC.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/ViewCompatJB.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/WindowCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/GravityCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/PagerTabStrip.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/ViewCompatICS.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/ActionProvider.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/KeyEventCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/MenuItemCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/PagerTitleStrip.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/ViewGroupCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/ViewParentCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/MenuItemCompatIcs.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/MotionEventCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/ViewGroupCompatHC.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/PagerTitleStripIcs.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/ViewGroupCompatIcs.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/ViewCompatEclairMr1.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/ViewParentCompatICS.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/KeyEventCompatEclair.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/GestureDetectorCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/VelocityTrackerCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/ViewCompatGingerbread.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/ViewCompatJellybeanMr1.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/KeyEventCompatHoneycomb.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/MenuItemCompatHoneycomb.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/MotionEventCompatEclair.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/ViewConfigurationCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/MarginLayoutParamsCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/GravityCompatJellybeanMr1.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/AccessibilityDelegateCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/ViewConfigurationCompatFroyo.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/AccessibilityDelegateCompatIcs.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/VelocityTrackerCompatHoneycomb.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/AccessibilityDelegateCompatJellyBean.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/view/MarginLayoutParamsCompatJellybeanMr1.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/media" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/media/TransportMediator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/media/TransportPerformer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/media/TransportController.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/media/TransportStateListener.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/media/TransportMediatorCallback.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/media/TransportMediatorJellybeanMR2.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/widget" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/widget/CursorFilter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/widget/DrawerLayout.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/widget/CursorAdapter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/widget/ScrollerCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/widget/ViewDragHelper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/widget/EdgeEffectCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/widget/SearchViewCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/widget/ScrollerCompatIcs.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/widget/SlidingPaneLayout.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/widget/EdgeEffectCompatIcs.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/widget/SearchViewCompatIcs.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/widget/SimpleCursorAdapter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/widget/ExploreByTouchHelper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/widget/ResourceCursorAdapter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/widget/ScrollerCompatGingerbread.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/widget/SearchViewCompatHoneycomb.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/content" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/content/pm" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/content/pm/ActivityInfoCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/content/Loader.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/content/CursorLoader.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/content/FileProvider.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/content/IntentCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/content/ContextCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/content/AsyncTaskLoader.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/content/ModernAsyncTask.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/content/IntentCompatIcsMr1.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/content/IntentCompatHoneycomb.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/content/LocalBroadcastManager.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/content/ContextCompatHoneycomb.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/content/ContextCompatJellybean.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/content/WakefulBroadcastReceiver.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/database" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/database/DatabaseUtilsCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/graphics" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/graphics/drawable" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/graphics/drawable/DrawableCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/graphics/drawable/DrawableCompatHoneycomb.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                </favorite_root>
+                <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/hardware" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/hardware/display" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/hardware/display/DisplayManagerCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/hardware/display/DisplayManagerJellybeanMr1.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                </favorite_root>
+                <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/internal" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/internal/view" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/internal/view/SupportMenu.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/internal/view/SupportSubMenu.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/internal/view/SupportMenuItem.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                </favorite_root>
+                <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/accessibilityservice" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/accessibilityservice/AccessibilityServiceInfoCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/accessibilityservice/AccessibilityServiceInfoCompatIcs.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/accessibilityservice/AccessibilityServiceInfoCompatJellyBeanMr2.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+              </favorite_root>
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/META-INF" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/META-INF/MANIFEST.MF" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/libs/easyfacebookandroidsdk_2.3.jar" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+    </favorites_list>
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="33" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="454" max-vertical-offset="4437">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="30" column="0" selection-start="967" selection-end="996" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="4539">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_blank.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/res/layout/activity_blank.xml">
+      <file leaf-file-name="module_zoaish.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module_zoaish.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="770" selection-end="770" vertical-scroll-proportion="0.878553" vertical-offset="0" max-vertical-offset="2142">
+            <state line="15" column="9" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="1717">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/login.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="15" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
           <provider editor-type-id="android-designer">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KodeFunFBAppActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://D:/KodeFunFBApp/src/net/junian/kodefun/fbapp/KodeFunFBAppActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="5" selection-start="42" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="2142">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -235,15 +477,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/fortest/ListItem.java" />
-        <option value="$PROJECT_DIR$/src/com/example/fortest/activity/ItemsActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/example/fortest/activity/TabsActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/example/fortest/custom/setAppFont.java" />
-        <option value="$PROJECT_DIR$/src/com/example/fortest/activity/myfeedActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/example/fortest/activity/mymessageActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/example/fortest/activity/myConversationActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/fortest/activity/HomeActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/example/fortest/activity/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/fortest/custom/ConversationAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/example/fortest/custom/LazyAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/example/fortest/custom/MenuAdapter.java" />
@@ -251,6 +485,14 @@
         <option value="$PROJECT_DIR$/src/com/example/fortest/custom/mymessageAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/example/fortest/custom/progressbarCustom.java" />
         <option value="$PROJECT_DIR$/src/com/example/fortest/helper/GifMovieView.java" />
+        <option value="$PROJECT_DIR$/src/com/example/fortest/activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/fortest/helper/facebook/widget/LoginButton.java" />
+        <option value="$PROJECT_DIR$/src/com/example/fortest/widget/LoginButton.java" />
+        <option value="$PROJECT_DIR$/res/layout/login.xml" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/fortest/TopCenterImageView.java" />
+        <option value="$PROJECT_DIR$/src/com/example/fortest/activity/loginActivity.java" />
+        <option value="D:/KodeFunFBApp/src/net/junian/kodefun/fbapp/KodeFunFBAppActivity.java" />
       </list>
     </option>
   </component>
@@ -270,7 +512,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -318,87 +560,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fortest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fortest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fortest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
+              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -413,14 +575,14 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="D:/AndroidProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="options.lastSelected" value="vcs.Git" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -428,35 +590,46 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="175" />
     <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.SHOW" value="false" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="zoaish" />
+    <property name="LayoutCode.rearrangeEntries" value="false" />
+    <property name="dir.diff.last.used.directory" value="$PROJECT_DIR$/libs" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.fortest.custom" />
+      <recent name="com.example.fortest.helper.facebook.widget" />
       <recent name="com.example.fortest.activity" />
+      <recent name="com.example.fortest.custom" />
       <recent name="com.example.fortest" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Zoaish\libs" />
+      <recent name="D:\Zoaish\res\layout" />
       <recent name="C:\Users\ebiz_asc1\Desktop\Zoaish\res\drawable" />
       <recent name="C:\Users\ebiz_asc1\Desktop\Zoaish\res\layout" />
       <recent name="C:\Users\ebiz_asc1\Desktop\Zoaish\res\anim" />
-      <recent name="C:\Users\ebiz_asc1\Desktop\Zoaish\res\values" />
-      <recent name="C:\Users\Breeshy\Desktop\Zoaish\res\layout" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.facebook.widget" />
       <recent name="com.example.fortest" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ebiz_asc1\Desktop\Zoaish\src" />
-      <recent name="C:\Users\ebiz_asc1\Desktop\Zoaish\src\com\example\fortest" />
-      <recent name="C:\Users\ebiz_asc1\Desktop\Zoaish\res\layout\page\masterpage" />
-      <recent name="C:\Users\ebiz_asc1\Desktop\Zoaish\res\layout\page\feed" />
-      <recent name="C:\Users\ebiz_asc1\Desktop\Zoaish\res\drawable" />
+      <recent name="D:\Zoaish\libs" />
+      <recent name="D:\Zoaish\res\layout" />
+      <recent name="D:\Zoaish\res\layout\list" />
+      <recent name="D:\Zoaish\res\layout\bg" />
+      <recent name="D:\Zoaish\res\layout\tab" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.fortest" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Application.Zoaish">
+  <component name="RunManager" selected="Android Application.KodeFunFBApp">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -611,8 +784,27 @@
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="KodeFunFBApp" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="KodeFunFBApp" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="true" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Android Application.Zoaish" />
+      <item index="1" class="java.lang.String" itemvalue="Android Application.KodeFunFBApp" />
     </list>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -651,6 +843,11 @@
       <created>1380342133959</created>
       <updated>1380342133959</updated>
     </task>
+    <task id="LOCAL-00001" summary="breeshy">
+      <created>1382430706416</created>
+      <updated>1382430706416</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -675,63 +872,35 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25841874" sideWeight="0.65686274" order="5" side_tool="true" content_ui="tabs" x="764" y="175" width="714" height="706" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25653595" sideWeight="0.85065883" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2630719" sideWeight="0.1566618" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.251634" sideWeight="0.2284041" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.251634" sideWeight="0.7715959" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.346395" sideWeight="0.8894583" order="3" side_tool="false" content_ui="combo" x="23" y="262" width="1320" height="203" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42156863" sideWeight="0.8894583" order="3" side_tool="false" content_ui="combo" x="23" y="262" width="1320" height="203" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24924242" sideWeight="0.65704584" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.57240206" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21229868" sideWeight="0.6535948" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2630719" sideWeight="0.8433382" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21229868" sideWeight="0.6535948" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2630719" sideWeight="0.8433382" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.76948774" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.6683006" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25841874" sideWeight="0.65686274" order="5" side_tool="true" content_ui="tabs" x="764" y="175" width="714" height="706" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.251634" sideWeight="0.7715959" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35947713" sideWeight="0.10980967" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.76948774" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20790629" sideWeight="0.6993464" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.548552" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2630719" sideWeight="0.844697" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33894584" sideWeight="0.8104575" order="5" side_tool="false" content_ui="tabs" x="764" y="175" width="714" height="706" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25653595" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18954249" sideWeight="0.77306" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3006536" sideWeight="0.89019036" order="3" side_tool="false" content_ui="combo" x="23" y="262" width="1320" height="203" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24924242" sideWeight="0.65704584" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.57240206" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -741,134 +910,109 @@
       <TodoPanelSettings />
     </option>
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
+    <MESSAGE value="breeshy" />
+    <option name="LAST_COMMIT_MESSAGE" value="breeshy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/custom/setAppFont.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/mylistview.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="193" selection-end="193" vertical-scroll-proportion="-0.2986111" vertical-offset="197" max-vertical-offset="629">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen/com/example/fortest/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="41" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/myfeedActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="189" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4794">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/mymessageActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="29" selection-start="795" selection-end="795" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="5049">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/myConversationActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="29" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0" vertical-offset="218" max-vertical-offset="2533">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/custom/ConversationAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="29" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0" vertical-offset="298" max-vertical-offset="2312">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/custom/MenuAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="29" selection-start="427" selection-end="427" vertical-scroll-proportion="0.13657407" vertical-offset="162" max-vertical-offset="1581">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/custom/myfeedAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="29" selection-start="712" selection-end="712" vertical-scroll-proportion="0.787037" vertical-offset="0" max-vertical-offset="2261">
-          <folding>
-            <element signature="e#2617#2633#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/custom/mymessageAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="29" selection-start="558" selection-end="558" vertical-scroll-proportion="0.6296296" vertical-offset="0" max-vertical-offset="2057">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/custom/progressbarCustom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="29" selection-start="179" selection-end="179" vertical-scroll-proportion="0.19675925" vertical-offset="0" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/helper/GifMovieView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="23" selection-start="490" selection-end="490" vertical-scroll-proportion="-0.27546296" vertical-offset="306" max-vertical-offset="867">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/DownloadImageTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="29" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.6458333" vertical-offset="418" max-vertical-offset="850">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/custom/LazyAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="29" selection-start="614" selection-end="614" vertical-scroll-proportion="0.097222224" vertical-offset="298" max-vertical-offset="2414">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/HomeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1564">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="33" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="454" max-vertical-offset="4437">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_blank.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="770" selection-end="770" vertical-scroll-proportion="0.878553" vertical-offset="0" max-vertical-offset="2142">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/view/View.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="142" selection-end="302" vertical-scroll-proportion="0.26984128" vertical-offset="0" max-vertical-offset="19482" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/helper/GifMovieView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="38" selection-start="353" selection-end="365" vertical-scroll-proportion="0.3109756" vertical-offset="0" max-vertical-offset="867" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/login.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="15" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/os/AsyncTask.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="22" selection-start="162" selection-end="162" vertical-scroll-proportion="0.26984128" vertical-offset="0" max-vertical-offset="952" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/DownloadImageTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="30" selection-end="36" vertical-scroll-proportion="0.103658535" vertical-offset="0" max-vertical-offset="850" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.7476852" vertical-offset="255" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/TopCenterImageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="3" selection-start="246" selection-end="246" vertical-scroll-proportion="0.19675925" vertical-offset="0" max-vertical-offset="816" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/ViewUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="352" selection-end="352" vertical-scroll-proportion="-1.2430556" vertical-offset="673" max-vertical-offset="1105" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_zoaish.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="9" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="1717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/KodeFunFBApp/lib/easyfacebookandroidsdk_2.2.jar!/com/easy/facebook/android/apicall/GraphApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="13" selection-start="2039" selection-end="2039" vertical-scroll-proportion="0.32458234" vertical-offset="0" max-vertical-offset="35071" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="967" selection-end="996" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="4539">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/ActionBarDrawerToggle.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="9" selection-start="128" selection-end="150" vertical-scroll-proportion="0.12944162" vertical-offset="0" max-vertical-offset="2720" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/easyfacebookandroidsdk_2.3.jar!/com/easy/facebook/android/error/EasyFacebookError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/loginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="47" selection-start="211" selection-end="211" vertical-scroll-proportion="0.1574074" vertical-offset="0" max-vertical-offset="2142" />
+      </provider>
+    </entry>
+    <entry file="file://D:/KodeFunFBApp/src/net/junian/kodefun/fbapp/KodeFunFBAppActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="5" selection-start="42" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="2142">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
@@ -948,11 +1092,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>android-support-v4</last-edited>
+          <last-edited>libs</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.47301587" />
               </list>
             </option>
           </splitter-proportions>

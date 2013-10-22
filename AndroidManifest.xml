@@ -8,6 +8,8 @@
         android:minSdkVersion="14"
         android:targetSdkVersion="17" />
     <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.De" />
     <application
         android:allowBackup="true"
         android:icon="@drawable/appicon"
@@ -20,6 +22,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
+
             </intent-filter>
 
 
@@ -30,8 +33,6 @@
         <!--  Videos Activity -->
         <activity android:name=".activity.ItemsActivity" />
 
-        <!--  Photos Activity -->
-        <activity android:name=".activity.MessagesActivity" />
     </application>
 
 </manifest>
