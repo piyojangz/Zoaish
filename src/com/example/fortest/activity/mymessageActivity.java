@@ -1,8 +1,8 @@
 package com.example.fortest.activity;
-
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Handler;
 import android.util.Log;
@@ -10,31 +10,30 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.AbsListView;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
-
 import com.example.fortest.ListItem;
-import com.example.fortest.R;
 import com.example.fortest.custom.mymessageAdapter;
+import com.example.fortest.custom.progressbarCustom;
 import com.example.fortest.helper.GifMovieView;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-
+import com.example.fortest.R;
 /**
  * Created by ebiz_asc1 on 10/2/13.
  */
 public class mymessageActivity extends AsyncTask<String, Void, Object> {
 
     public static String userid;
-    protected Context context;
+    private static Context context;
     protected Handler handler;
     protected List<String> l;
     protected ArrayList<HashMap<String, String>> sList;
     protected HashMap<String, String> map;
     protected ListView lv;
-    protected Activity a;
+    private static Activity a;
     private static final String TAG = "MyActivity";
     private mymessageAdapter myfeed;
     private ProgressDialog dialog;
@@ -48,6 +47,7 @@ public class mymessageActivity extends AsyncTask<String, Void, Object> {
     protected static final int PERPAGE = 10;
     private View rootView;
     private GifMovieView gifView;
+    private progressbarCustom objProgressDialog;
 
     public void create_feed(Activity a, Context context, ListView lv, View rootView) {
         this.context = context;
@@ -55,15 +55,14 @@ public class mymessageActivity extends AsyncTask<String, Void, Object> {
         this.lv = lv;
         this.rootView = rootView;
         this.l = new ArrayList<String>();
-        handler = new Handler();
-        handler.postDelayed(new Runnable() {
+        this.handler = new Handler();
+        this.handler.postDelayed(new Runnable() {
             public void run() {
                 downloadData();
             }
         }, 0);
         this.sList = new ArrayList<HashMap<String, String>>();
         this.insertPoint = (RelativeLayout) this.rootView.findViewById(R.id.customloadingGround);
-
         this.gifView = new GifMovieView(this.context);
         this.insertPoint.addView(this.gifView);
         this.lv.setOnScrollListener(new AbsListView.OnScrollListener() {
@@ -83,21 +82,28 @@ public class mymessageActivity extends AsyncTask<String, Void, Object> {
                     }
                 }
                 if (!loading && (totalItemCount - visibleItemCount) <= (firstVisibleItem + visibleThreshold)) {
-                   // Log.d(TAG, "scroll do = " + currentPage);
-                    // I load the next page of gigs using a background task,
-                    // but you can call any function here.
                     new LoadMoreTask().execute(currentPage + 10);
                     loading = true;
                 }
             }
         });
+
+        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+                Intent myIntent = new Intent(mymessageActivity.a, myConversationActivity.class);
+                String KEY_MYMESSAGEID = sList.get(position).get(ListItem.KEY_MYMESSAGEID).toString();
+                String KEY_MYMESSAGEUSERID = sList.get(position).get(ListItem.KEY_MYMESSAGEUSERID).toString();
+                myIntent.putExtra(ListItem.KEY_MYMESSAGEID, KEY_MYMESSAGEID);
+                myIntent.putExtra(ListItem.KEY_MYMESSAGEUSERID, KEY_MYMESSAGEUSERID);
+                mymessageActivity.a.startActivity(myIntent);
+            }
+        });
+
     }
 
 
     protected ArrayList<HashMap<String, String>> loadData(int limit) {
-
-        Log.d(TAG, "loadData...");
-
         map = new HashMap<String, String>();
         map.put(ListItem.KEY_MYMESSAGEID, "1");
         map.put(ListItem.KEY_MYMESSAGEUSERID, "711");
@@ -108,7 +114,7 @@ public class mymessageActivity extends AsyncTask<String, Void, Object> {
         this.sList.add(map);
 
         map = new HashMap<String, String>();
-        map.put(ListItem.KEY_MYMESSAGEID, "1");
+        map.put(ListItem.KEY_MYMESSAGEID, "2");
         map.put(ListItem.KEY_MYMESSAGEUSERID, "711");
         map.put(ListItem.KEY_MYMESSAGEUSERIMG, "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc1/c50.50.621.621/s160x160/296864_4122090932581_473985757_n.jpg");
         map.put(ListItem.KEY_MYMESSAGETITLE, "อยากแลกไอแพดมินิ มือสอง");
@@ -117,7 +123,7 @@ public class mymessageActivity extends AsyncTask<String, Void, Object> {
         this.sList.add(map);
 
         map = new HashMap<String, String>();
-        map.put(ListItem.KEY_MYMESSAGEID, "1");
+        map.put(ListItem.KEY_MYMESSAGEID, "3");
         map.put(ListItem.KEY_MYMESSAGEUSERID, "711");
         map.put(ListItem.KEY_MYMESSAGEUSERIMG, "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/s160x160/1394120_3426753522850_1369128147_a.jpg");
         map.put(ListItem.KEY_MYMESSAGETITLE, "สนใจตัว 27 นิ้ว");
@@ -135,7 +141,7 @@ public class mymessageActivity extends AsyncTask<String, Void, Object> {
         this.sList.add(map);
 
         map = new HashMap<String, String>();
-        map.put(ListItem.KEY_MYMESSAGEID, "1");
+        map.put(ListItem.KEY_MYMESSAGEID, "4");
         map.put(ListItem.KEY_MYMESSAGEUSERID, "711");
         map.put(ListItem.KEY_MYMESSAGEUSERIMG, "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/c33.33.414.414/s160x160/996822_3245921564722_159886767_n.jpg");
         map.put(ListItem.KEY_MYMESSAGETITLE, "สนใจซื้อ ผ้าขาวม้าเอาไว้ห่อควายครับ");
@@ -144,7 +150,7 @@ public class mymessageActivity extends AsyncTask<String, Void, Object> {
         this.sList.add(map);
 
         map = new HashMap<String, String>();
-        map.put(ListItem.KEY_MYMESSAGEID, "1");
+        map.put(ListItem.KEY_MYMESSAGEID, "5");
         map.put(ListItem.KEY_MYMESSAGEUSERID, "711");
         map.put(ListItem.KEY_MYMESSAGEUSERIMG, "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/s160x160/1234628_10200284569510711_494409731_a.jpg");
         map.put(ListItem.KEY_MYMESSAGETITLE, "ไม่ทราบว่าตัวนี้ลดได้อีกไหม");
@@ -152,9 +158,9 @@ public class mymessageActivity extends AsyncTask<String, Void, Object> {
         map.put(ListItem.KEY_MYMESSAGEITEMID, "658734");
         this.sList.add(map);
         for (int i = 0; i < limit; i++) {
-          //  Log.d(TAG, "i = " + i);
+            //  Log.d(TAG, "i = " + i);
             map = new HashMap<String, String>();
-            map.put(ListItem.KEY_MYMESSAGEID, "1");
+            map.put(ListItem.KEY_MYMESSAGEID, "6");
             map.put(ListItem.KEY_MYMESSAGEUSERID, "711");
             map.put(ListItem.KEY_MYMESSAGEUSERIMG, "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc1/c50.50.621.621/s160x160/296864_4122090932581_473985757_n.jpg");
             map.put(ListItem.KEY_MYMESSAGETITLE, "สอบถามราคาสินค้า");
@@ -167,11 +173,10 @@ public class mymessageActivity extends AsyncTask<String, Void, Object> {
     }
 
     private List<String> downloadData() {
-
-        this.dialog = ProgressDialog.show(this.context, "Downloading Data..", "Please wait", true, false);
         this.execute();
         return l;
     }
+
     private List<String> feedData(String value) {
         l.add(value);
         Log.d(TAG, "List = " + l.size());
@@ -190,15 +195,38 @@ public class mymessageActivity extends AsyncTask<String, Void, Object> {
     }
 
     @Override
+    protected void onPreExecute() {
+        Animation anim = AnimationUtils.loadAnimation(context,
+                R.anim.swipe_motion);
+        insertPoint.setVisibility(View.VISIBLE);
+        insertPoint.startAnimation(anim);
+    }
+
+    @Override
     protected void onPostExecute(Object result) {
         myfeed = new mymessageAdapter(this.a, this.sList);
-        this.lv.setAdapter(myfeed);
-        // Pass the result data back to the main activity
+        lv.setAdapter(myfeed);
+        if (insertPoint.VISIBLE != View.INVISIBLE) {
+            Animation anim = AnimationUtils.loadAnimation(context,
+                    R.anim.swipe_motionout);
+            insertPoint.startAnimation(anim);
+            anim.setAnimationListener(new Animation.AnimationListener() {
+                @Override
+                public void onAnimationStart(Animation animation) {
 
+                }
 
-        //Log.d(TAG, "done");
-        if (this.dialog != null) {
-            this.dialog.dismiss();
+                @Override
+                public void onAnimationEnd(Animation animation) {
+                    insertPoint.setVisibility(View.INVISIBLE);
+
+                }
+
+                @Override
+                public void onAnimationRepeat(Animation animation) {
+
+                }
+            });
         }
 
     }
@@ -214,8 +242,6 @@ public class mymessageActivity extends AsyncTask<String, Void, Object> {
 
         @Override
         protected void onPostExecute(Object result) {
-           // Log.d(TAG, "done");
-            myfeed.notifyDataSetChanged();
             if (insertPoint.VISIBLE != View.INVISIBLE) {
                 Animation anim = AnimationUtils.loadAnimation(context,
                         R.anim.swipe_motionout);
@@ -228,6 +254,7 @@ public class mymessageActivity extends AsyncTask<String, Void, Object> {
 
                     @Override
                     public void onAnimationEnd(Animation animation) {
+                        myfeed.notifyDataSetChanged();
                         insertPoint.setVisibility(View.INVISIBLE);
                     }
 
@@ -254,12 +281,12 @@ public class mymessageActivity extends AsyncTask<String, Void, Object> {
 
     private void loadMore(int _currentPage) {
         //_currentPage mean จำนวน items ปัจจุบันที่เราดึงมา อย่างเช่นรอบแรกดึง 1-10 -> รอบต่อไปก็จะเป็น 11 - 20 โดยเพิ่งทีละ 10
-       // Log.d(TAG, "this.currentPage = " + _currentPage);
+        // Log.d(TAG, "this.currentPage = " + _currentPage);
         for (int i = _currentPage; i < _currentPage + PERPAGE; i++) {
-           // Log.d(TAG, "i = " + i);
+            // Log.d(TAG, "i = " + i);
             map = new HashMap<String, String>();
             map = new HashMap<String, String>();
-            map.put(ListItem.KEY_MYMESSAGEID, "1");
+            map.put(ListItem.KEY_MYMESSAGEID, "7");
             map.put(ListItem.KEY_MYMESSAGEUSERID, "711");
             map.put(ListItem.KEY_MYMESSAGEUSERIMG, "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc1/c50.50.621.621/s160x160/296864_4122090932581_473985757_n.jpg");
             map.put(ListItem.KEY_MYMESSAGETITLE, "สอบถามราคาสนงค้า หมายเลข 12");

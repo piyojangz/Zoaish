@@ -8,11 +8,12 @@
     android:layout_marginLeft="6dp"
     android:layout_marginRight="6dp"
     android:layout_marginTop="4dp"
-    android:orientation="horizontal" >
+    android:orientation="horizontal">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_marginTop="10dp"
+        android:layout_height="match_parent">
 
         <FrameLayout
             android:id="@+id/thumbnail"
@@ -20,15 +21,15 @@
             android:layout_height="80dip"
             android:layout_alignParentRight="true"
             android:layout_marginLeft="5dip"
-            android:background="@drawable/circle2" >
+            android:background="@drawable/circle2">
+
             <ImageView
                 android:id="@+id/imgUser"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:adjustViewBounds="true"
-                android:scaleType="centerCrop"/>
+                android:scaleType="centerCrop" />
         </FrameLayout>
-
 
 
         <FrameLayout
@@ -52,8 +53,8 @@
                 android:text="@string/lorem"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:gravity="left"/>
-            </FrameLayout>
+                android:gravity="left" />
+        </FrameLayout>
     </RelativeLayout>
 
 </LinearLayout>

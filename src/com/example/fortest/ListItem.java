@@ -2,8 +2,8 @@ package com.example.fortest;
 
 
 public class ListItem {
-
-
+    public static String TAG = "MyActivity";
+    public static String USERID;
     public static String KEY_TITLE = "KEYTITLE";
     public static String KEY_IMG = "KEYIMG";
     public static String KEY_NOTIFICAIONCOUNT = "KEY_NOTIFICAIONCOUNT";
@@ -22,6 +22,7 @@ public class ListItem {
     public static String KEY_MYMESSAGETITLE = "KEY_MYMESSAGETITLE";
     public static String KEY_MYMESSAGEITEMID = "KEY_MYMESSAGEITEMID";
     public static String KEY_MYMESSAGEDESC = "KEY_MYMESSAGEDESC";
+
     public ListItem() {
 
 

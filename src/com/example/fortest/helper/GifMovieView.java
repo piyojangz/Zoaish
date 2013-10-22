@@ -6,9 +6,9 @@ import android.graphics.Color;
 import android.graphics.Movie;
 import android.util.AttributeSet;
 import android.view.View;
-import com.example.fortest.R;
-import java.io.InputStream;
 
+import java.io.InputStream;
+import com.example.fortest.R;
 /**
  * Created by ebiz_asc1 on 10/17/13.
  */

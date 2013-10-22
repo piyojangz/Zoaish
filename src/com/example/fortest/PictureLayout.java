@@ -1,4 +1,4 @@
-package com.example.fortest;
+package com.example.zoaish;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -25,7 +25,7 @@ public class PictureLayout extends ViewGroup {
     @Override
     public void addView(View child) {
         if (getChildCount() > 1) {
-            throw new IllegalStateException("com.example.fortest.PictureLayout can host only one direct child");
+            throw new IllegalStateException("com.example.fortest1.PictureLayout can host only one direct child");
         }
 
         super.addView(child);
@@ -34,7 +34,7 @@ public class PictureLayout extends ViewGroup {
     @Override
     public void addView(View child, int index) {
         if (getChildCount() > 1) {
-            throw new IllegalStateException("com.example.fortest.PictureLayout can host only one direct child");
+            throw new IllegalStateException("com.example.fortest1.PictureLayout can host only one direct child");
         }
 
         super.addView(child, index);
@@ -43,7 +43,7 @@ public class PictureLayout extends ViewGroup {
     @Override
     public void addView(View child, LayoutParams params) {
         if (getChildCount() > 1) {
-            throw new IllegalStateException("com.example.fortest.PictureLayout can host only one direct child");
+            throw new IllegalStateException("com.example.fortest1.PictureLayout can host only one direct child");
         }
 
         super.addView(child, params);
@@ -52,7 +52,7 @@ public class PictureLayout extends ViewGroup {
     @Override
     public void addView(View child, int index, LayoutParams params) {
         if (getChildCount() > 1) {
-            throw new IllegalStateException("com.example.fortest.PictureLayout can host only one direct child");
+            throw new IllegalStateException("com.example.fortest1.PictureLayout can host only one direct child");
         }
 
         super.addView(child, index, params);

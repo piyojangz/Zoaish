@@ -13,11 +13,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
-
-import com.example.fortest.ListItem;
 import com.example.fortest.R;
+import com.example.fortest.ListItem;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Transformation;
 

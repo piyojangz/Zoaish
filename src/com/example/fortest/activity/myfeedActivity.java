@@ -1,9 +1,9 @@
 package com.example.fortest.activity;
 
-import com.example.fortest.R;
+import com.example.fortest.custom.progressbarCustom;
 import com.example.fortest.helper.GifMovieView;
 import com.example.fortest.custom.myfeedAdapter;
-
+import com.example.fortest.R;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -34,10 +34,10 @@ public class myfeedActivity extends AsyncTask<String, Void, Object> {
     protected List<String> l;
     protected ArrayList<HashMap<String, String>> sList;
     protected HashMap<String, String> map;
-    protected ListView lv;
-    protected Activity a;
+    public ListView lv;
+    public Activity a;
     private static final String TAG = "MyActivity";
-    private myfeedAdapter myfeed;
+    public myfeedAdapter myfeed;
     private ProgressDialog dialog;
     protected int limit = 0;
     private boolean flag_loading = false;
@@ -45,10 +45,11 @@ public class myfeedActivity extends AsyncTask<String, Void, Object> {
     private int currentPage = 0;
     private int previousTotal = 0;
     private boolean loading = true;
-    private RelativeLayout insertPoint;
+    public RelativeLayout insertPoint;
     protected static final int PERPAGE = 10;
     private View rootView;
     private GifMovieView gifView;
+    private progressbarCustom objProgressDialog;
 
     public void create_feed(Activity a, Context context, ListView lv, View rootView) {
         this.context = context;
@@ -64,9 +65,10 @@ public class myfeedActivity extends AsyncTask<String, Void, Object> {
         }, 0);
         this.sList = new ArrayList<HashMap<String, String>>();
         this.insertPoint = (RelativeLayout) this.rootView.findViewById(R.id.customloadingGround);
-
         this.gifView = new GifMovieView(this.context);
         this.insertPoint.addView(this.gifView);
+        myfeed = new myfeedAdapter(this.a, this.sList);
+
         this.lv.setOnScrollListener(new AbsListView.OnScrollListener() {
             @Override
             public void onScrollStateChanged(AbsListView absListView, int i) {
@@ -84,7 +86,7 @@ public class myfeedActivity extends AsyncTask<String, Void, Object> {
                     }
                 }
                 if (!loading && (totalItemCount - visibleItemCount) <= (firstVisibleItem + visibleThreshold)) {
-                   // Log.d(TAG, "scroll do = " + currentPage);
+                    // Log.d(TAG, "scroll do = " + currentPage);
                     // I load the next page of gigs using a background task,
                     // but you can call any function here.
                     new LoadMoreTask().execute(currentPage + 10);
@@ -131,7 +133,7 @@ public class myfeedActivity extends AsyncTask<String, Void, Object> {
                 "เครื่องศูนย์ไทย แทบไม่ได้ใช้งาน ซื้อมาเปิดเพลงฟัง ชัดๆ.");
         this.sList.add(map);
         for (int i = 0; i < limit; i++) {
-          //  Log.d(TAG, "i = " + i);
+            //  Log.d(TAG, "i = " + i);
             map = new HashMap<String, String>();
             map.put(ListItem.KEY_MYFEED_ITEMID, "1");
             map.put(ListItem.KEY_MYFEED_ITEMUSERID, "711");
@@ -147,10 +149,16 @@ public class myfeedActivity extends AsyncTask<String, Void, Object> {
     }
 
     private List<String> downloadData() {
-
-        this.dialog = ProgressDialog.show(this.context, "Downloading Data..", "Please wait", true, false);
         this.execute();
         return l;
+    }
+
+    @Override
+    protected void onPreExecute() {
+        Animation anim = AnimationUtils.loadAnimation(context,
+                R.anim.swipe_motion);
+        insertPoint.setVisibility(View.VISIBLE);
+        insertPoint.startAnimation(anim);
     }
 
     private List<String> feedData(String value) {
@@ -172,14 +180,28 @@ public class myfeedActivity extends AsyncTask<String, Void, Object> {
 
     @Override
     protected void onPostExecute(Object result) {
-        myfeed = new myfeedAdapter(this.a, this.sList);
-        this.lv.setAdapter(myfeed);
         // Pass the result data back to the main activity
+        myfeed = new myfeedAdapter(this.a, this.sList);
+        if (insertPoint.VISIBLE != View.INVISIBLE) {
+            Animation anim = AnimationUtils.loadAnimation(context,
+                    R.anim.swipe_motionout);
+            insertPoint.startAnimation(anim);
+            anim.setAnimationListener(new Animation.AnimationListener() {
+                @Override
+                public void onAnimationStart(Animation animation) {
+                    lv.setAdapter(myfeed);
+                }
 
+                @Override
+                public void onAnimationEnd(Animation animation) {
+                    insertPoint.setVisibility(View.INVISIBLE);
+                }
 
-        //Log.d(TAG, "done");
-        if (this.dialog != null) {
-            this.dialog.dismiss();
+                @Override
+                public void onAnimationRepeat(Animation animation) {
+
+                }
+            });
         }
 
     }
@@ -195,12 +217,13 @@ public class myfeedActivity extends AsyncTask<String, Void, Object> {
 
         @Override
         protected void onPostExecute(Object result) {
-           // Log.d(TAG, "done");
-            myfeed.notifyDataSetChanged();
+            // lv.setAdapter(myfeed);
+            //myfeed.notifyDataSetChanged();
             if (insertPoint.VISIBLE != View.INVISIBLE) {
                 Animation anim = AnimationUtils.loadAnimation(context,
                         R.anim.swipe_motionout);
                 insertPoint.startAnimation(anim);
+
                 anim.setAnimationListener(new Animation.AnimationListener() {
                     @Override
                     public void onAnimationStart(Animation animation) {
@@ -209,7 +232,9 @@ public class myfeedActivity extends AsyncTask<String, Void, Object> {
 
                     @Override
                     public void onAnimationEnd(Animation animation) {
+                        myfeed.notifyDataSetChanged();
                         insertPoint.setVisibility(View.INVISIBLE);
+
                     }
 
                     @Override
@@ -221,13 +246,16 @@ public class myfeedActivity extends AsyncTask<String, Void, Object> {
 
         }
 
-        private void execute(int x) {
-            //dialog = ProgressDialog.show(context, "Downloading Data..", "Please wait", true, false);
+        @Override
+        protected void onPreExecute() {
             Animation anim = AnimationUtils.loadAnimation(context,
                     R.anim.swipe_motion);
             insertPoint.setVisibility(View.VISIBLE);
             insertPoint.startAnimation(anim);
 
+        }
+
+        private void execute(int x) {
             this.currentPage = x;
             this.execute();
         }
@@ -235,9 +263,9 @@ public class myfeedActivity extends AsyncTask<String, Void, Object> {
 
     private void loadMore(int _currentPage) {
         //_currentPage mean จำนวน items ปัจจุบันที่เราดึงมา อย่างเช่นรอบแรกดึง 1-10 -> รอบต่อไปก็จะเป็น 11 - 20 โดยเพิ่งทีละ 10
-       // Log.d(TAG, "this.currentPage = " + _currentPage);
+        // Log.d(TAG, "this.currentPage = " + _currentPage);
         for (int i = _currentPage; i < _currentPage + PERPAGE; i++) {
-           // Log.d(TAG, "i = " + i);
+            // Log.d(TAG, "i = " + i);
             map = new HashMap<String, String>();
             map.put(ListItem.KEY_MYFEED_ITEMID, "1");
             map.put(ListItem.KEY_MYFEED_ITEMUSERID, "711");

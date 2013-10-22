@@ -18,7 +18,9 @@
             android:layout_marginRight="8dp"
             android:divider="#00000000"
             android:id="@+id/myfeed_listView"
-            android:choiceMode="singleChoice"/>
+            android:focusable="false"
+            android:choiceMode="singleChoice" />
+
         <RelativeLayout
             android:layout_width="260dp"
             android:id="@+id/customloadingGround"
