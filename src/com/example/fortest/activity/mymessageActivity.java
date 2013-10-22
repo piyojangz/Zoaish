@@ -15,7 +15,6 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import com.example.fortest.ListItem;
 import com.example.fortest.custom.mymessageAdapter;
-import com.example.fortest.custom.progressbarCustom;
 import com.example.fortest.helper.GifMovieView;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -47,7 +46,7 @@ public class mymessageActivity extends AsyncTask<String, Void, Object> {
     protected static final int PERPAGE = 10;
     private View rootView;
     private GifMovieView gifView;
-    private progressbarCustom objProgressDialog;
+
 
     public void create_feed(Activity a, Context context, ListView lv, View rootView) {
         this.context = context;

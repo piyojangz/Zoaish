@@ -27,11 +27,10 @@
 
 
         </activity>
-        <!--  Songs Activity -->
         <activity android:name=".activity.TabsActivity" />
-
-        <!--  Videos Activity -->
         <activity android:name=".activity.ItemsActivity" />
+        <activity android:name=".activity.myConversationActivity" />
+        <activity android:name=".activity.loginActivity" />
 
     </application>
 

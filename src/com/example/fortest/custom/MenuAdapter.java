@@ -3,6 +3,7 @@ package com.example.fortest.custom;
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Typeface;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -61,7 +62,7 @@ public class MenuAdapter extends BaseAdapter {
 
 
         txt_title.setText(smart.get(ListItem.KEY_TITLE));
-        int id = this.activity.getResources().getIdentifier("com.example.fortest1:drawable/" + smart.get(ListItem.KEY_IMG), null, null);
+        int id = this.activity.getResources().getIdentifier("com.example.fortest:drawable/" + smart.get(ListItem.KEY_IMG), null, null);
         list_image.setImageResource(id);
         if (smart.get(ListItem.KEY_NOTIFICAIONCOUNT) != "0") {
             txt_notificationcount.setText(smart.get(ListItem.KEY_NOTIFICAIONCOUNT));
@@ -69,12 +70,12 @@ public class MenuAdapter extends BaseAdapter {
             lnotification.setVisibility(View.INVISIBLE);
         }
 
-        Log.d(TAG, "Log");
+        Log.d(TAG, "Log pic");
 
         // String url = smart.get(ListItem.KEY_IMG).toString();
 
 
-        // Context context = activity;
+       //  Context context = activity;
 
         // Picasso.with(context).load(url).transform(this).into(imgUser);
 

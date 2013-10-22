@@ -64,7 +64,7 @@
                     android:shadowRadius="2"
                     android:textStyle="bold"
                     android:lineSpacingExtra="1dp"
-                    android:id="@+id/textView2" />
+                    android:id="@+id/txtmenufullname" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -74,8 +74,8 @@
                     android:textColor="#ffa5a6a6"
                     android:textStyle="italic"
                     android:padding="5dp"
-                    android:id="@+id/textView"
-                    android:layout_below="@+id/textView2"
+                    android:id="@+id/txtMenulocation"
+                    android:layout_below="@+id/txtmenufullname"
                     android:layout_alignParentLeft="true" />
 
             </RelativeLayout>

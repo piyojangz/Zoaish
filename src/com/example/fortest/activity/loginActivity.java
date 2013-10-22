@@ -1,4 +1,8 @@
 package com.example.fortest.activity;
+import com.easy.facebook.android.data.Images;
+import com.easy.facebook.android.data.Location;
+import com.example.fortest.ListItem;
+import com.example.fortest.ListUser;
 import com.example.fortest.R;
 import  com.easy.facebook.android.apicall.GraphApi;
 import com.easy.facebook.android.data.User;
@@ -7,7 +11,9 @@ import com.easy.facebook.android.facebook.FBLoginManager;
 import com.easy.facebook.android.facebook.Facebook;
 import com.easy.facebook.android.facebook.LoginListener;
 
-        import android.util.Log;
+import android.content.Intent;
+import android.os.StrictMode;
+import android.util.Log;
         import android.app.Activity;
         import android.os.Bundle;
 
@@ -15,14 +21,16 @@ public class loginActivity extends Activity implements LoginListener {
     /** Called when the activity is first created.. */
 
     private FBLoginManager fbLoginManager;
-
     //replace it with your own Facebook App ID
     public final String KODEFUNFBAPP_ID = "599156356796723";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setContentView(R.layout.main);
+        if (android.os.Build.VERSION.SDK_INT > 9) {
+            StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+            StrictMode.setThreadPolicy(policy);
+        }
         connectToFacebook();
     }
 
@@ -54,7 +62,6 @@ public class loginActivity extends Activity implements LoginListener {
                 "user_website",
                 "user_work_history",
                 "email",
-
                 "read_friendlists",
                 "read_insights",
                 "read_mailbox",
@@ -96,19 +103,38 @@ public class loginActivity extends Activity implements LoginListener {
 
     public void loginSuccess(Facebook facebook) {
         GraphApi graphApi = new GraphApi(facebook);
-
         User user = new User();
-
+        Location locate = new Location();
+        Intent returnIntent = new Intent();
         try{
             user = graphApi.getMyAccountInfo();
-
+            locate = user.getLocation();
+            returnIntent.putExtra("fbresult", "true");
             //update your status if logged in
-            graphApi.setStatus("Hello, world!");
+            //graphApi.setStatus("Test post from Zoaish");
+
+            //***********************************************
+            ListUser.id = user.getId();
+            ListUser.first_name = user.getFirst_name();
+            ListUser.last_name = user.getLast_name();
+            ListUser.about = user.getAbout();
+            ListUser.street = locate.getStreet();
+            ListUser.city = locate.getCity();
+            ListUser.country = locate.getCountry();
+
+            //***********************************************
+
+
+
+
+
+
         } catch(EasyFacebookError e){
+            returnIntent.putExtra("fbresult", "false");
             Log.d("TAG: ", e.toString());
         }
-
-        fbLoginManager.displayToast("Hey, " + user.getFirst_name() + "! Login success!");
+        setResult(RESULT_OK, returnIntent);
+        finish();
     }
 
     public void logoutSuccess() {

@@ -2,10 +2,12 @@ package com.example.fortest.activity;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.v4.view.GravityCompat;
 import android.util.Log;
@@ -22,13 +24,17 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
+import com.example.fortest.ListUser;
 import com.example.fortest.custom.MenuAdapter;
 import com.example.fortest.ListItem;
 import com.example.fortest.custom.setAppFont;
 import com.example.fortest.R;
+import com.squareup.picasso.Picasso;
 
 /**
  * @author ebiz_asc1
@@ -47,6 +53,12 @@ public class MainActivity extends Activity {
     private Typeface typeFace;
     private Integer selectedposition;
     private Boolean is_fistseletedItem = true;
+    private static String[] menuItems;
+    private ImageView imgProfilemenu;
+    private TextView txtMenufullname;
+    private static String CurentMenu;
+    private TextView txtMenuLocation;
+    static final int PICK_CONTACT_REQUEST = 1;  // The request code
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +72,10 @@ public class MainActivity extends Activity {
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mDrawerList = (ListView) findViewById(R.id.left_drawer);
         mDrawerMenu = (RelativeLayout) findViewById(R.id.menu_left);
+        imgProfilemenu = (ImageView) findViewById(R.id.imgProfilemenu);
+
+        txtMenufullname = (TextView) mDrawerMenu.findViewById(R.id.txtmenufullname);
+        txtMenuLocation = (TextView) mDrawerMenu.findViewById(R.id.txtMenulocation);
         // set a custom shadow that overlays the main content when the drawer opens
         mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
         // set up the drawer's list view with items and click listener
@@ -71,6 +87,7 @@ public class MainActivity extends Activity {
         setAppFont.setAppFont(mContainer, typeFace);
         sList = new ArrayList<HashMap<String, String>>();
         String[] menu = {"Home", "Feed", "Message", "Item", "Favorite", "Login", "Setting"};
+        this.menuItems = menu;
         String[] notification = {"0", "23", "13", "2", "0", "0", "0"};
         String[] img = {"ic_home", "ic_feed", "ic_message", "ic_item", "ic_boardpin", "ic_logout", "ic_setting2"};
         mMenuTitles = menu;
@@ -105,9 +122,8 @@ public class MainActivity extends Activity {
         mDrawerLayout.setDrawerListener(mDrawerToggle);
 
         if (savedInstanceState == null) {
-            selectItem(1); // wait for coding
+            selectItem(1);// if default
         }
-
 
     }
 
@@ -153,11 +169,13 @@ public class MainActivity extends Activity {
 
     private void selectItem(int position) {
         // update selected item and title, then close the drawer
-        this.selectedposition = position;
-        if (is_fistseletedItem) activeItem();
-        mDrawerList.setItemChecked(position, true);
-        setTitle(mMenuTitles[position]);
-        mDrawerLayout.closeDrawer(mDrawerMenu);
+
+            this.selectedposition = position;
+            if (is_fistseletedItem) activeItem();
+            mDrawerList.setItemChecked(position, true);
+
+           mDrawerLayout.closeDrawer(mDrawerMenu);
+
     }
 
     private void activeItem() {
@@ -210,8 +228,12 @@ public class MainActivity extends Activity {
 
 
             int i = getArguments().getInt(ARG_MENU_NUMBER);
-            String Menu = getResources().getStringArray(R.array.menus_array)[i];
-            View rootView;
+            String Menu = menuItems[i];
+            View rootView = null;
+            Animation anim = AnimationUtils.loadAnimation(this.getActivity().getBaseContext(),
+                    R.anim.showin);
+            anim = AnimationUtils.loadAnimation(this.getActivity().getBaseContext(),
+                    R.anim.showin);
             ListView lv;
             ListItem.USERID = "90999900";
             switch (i) {
@@ -219,39 +241,74 @@ public class MainActivity extends Activity {
                     HomeActivity objhome = new HomeActivity();
                     rootView = inflater.inflate(R.layout.activity_home, container, false);
                     objhome.setInstance(this.getActivity(), this.getActivity(), rootView);
+                    rootView.setAnimation(anim);
                     break;
                 case 1:
                     myfeedActivity objfeedact = new myfeedActivity();
                     rootView = inflater.inflate(R.layout.mylistview, container, false);
                     lv = (ListView) rootView.findViewById(R.id.myfeed_listView);
                     objfeedact.create_feed(this.getActivity(), this.getActivity(), lv, rootView);
-
+                    rootView.setAnimation(anim);
                     break;
-//testSVN2
                 case 2:
                     mymessageActivity objmsgact = new mymessageActivity();
                     rootView = inflater.inflate(R.layout.mylistview, container, false);
                     lv = (ListView) rootView.findViewById(R.id.myfeed_listView);
                     objmsgact.create_feed(this.getActivity(), this.getActivity(), lv, rootView);
+                    rootView.setAnimation(anim);
+                    break;
+                case 3:
+                    rootView = inflater.inflate(R.layout.fragment_planet, container, false);
+                    rootView.setAnimation(anim);
+                    break;
+                case 4:
+                    rootView = inflater.inflate(R.layout.fragment_planet, container, false);
+                    rootView.setAnimation(anim);
                     break;
                 case 5:
-                    loginActivity objloginact = new loginActivity();
-                    rootView = inflater.inflate(R.layout.login, container, false);
-                    //lv = (ListView) rootView.findViewById(R.id.myfeed_listView);
-                  //  objloginact.create_feed(this.getActivity(), this.getActivity(), lv, rootView);
+                    Intent myIntent = new Intent(this.getActivity(), loginActivity.class);
+                    this.getActivity().startActivityForResult(myIntent, PICK_CONTACT_REQUEST);
+                    break;
+                case 6:
+                    rootView = inflater.inflate(R.layout.fragment_planet, container, false);
+                    rootView.setAnimation(anim);
                     break;
                 default:
                     rootView = inflater.inflate(R.layout.fragment_planet, container, false);
+                    rootView.setAnimation(anim);
                     break;
             }
-            Animation anim = AnimationUtils.loadAnimation(this.getActivity().getBaseContext(),
-                    R.anim.showin);
-            rootView.setAnimation(anim);
+
             /*int imageId = getResources().getIdentifier(Menu.toLowerCase(Locale.getDefault()),
                     "drawable", getActivity().getPackageName());
             ((ImageView) rootView.findViewById(R.id.image)).setImageResource(imageId);*/
+            CurentMenu = Menu;
             getActivity().setTitle(Menu);
             return rootView;
+        }
+
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        // Check which request we're responding to
+        if (requestCode == PICK_CONTACT_REQUEST) {
+            // Make sure the request was successful
+            if (resultCode == RESULT_OK) {
+                String result = data.getExtras().getString("fbresult");
+                if (result.equals("true")) {
+                    this.is_fistseletedItem = true;
+                    this.selectItem(0);
+                    Log.d(ListItem.TAG, "txtMenufullname =" + txtMenufullname);
+                    Picasso.with(this).load("http://graph.facebook.com/" + ListUser.id + "/picture?type=large").into(this.imgProfilemenu);
+                    this.txtMenufullname.setText(ListUser.first_name + " " + ListUser.last_name);
+                    this.txtMenuLocation.setText(ListUser.country + ", " + ListUser.city);
+                }
+                // The user picked a contact.
+                // The Intent's data Uri identifies which contact was selected.
+
+                // Do something with the contact here (bigger example below)
+            }
         }
     }
 

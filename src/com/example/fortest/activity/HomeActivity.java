@@ -1,19 +1,30 @@
 package com.example.fortest.activity;
+import com.easy.facebook.android.data.User;
+import com.example.fortest.ListItem;
+import com.example.fortest.ListUser;
 import com.example.fortest.R;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.AsyncTask;
+import android.util.Log;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import com.example.fortest.custom.progressbarCustom;
 import com.example.fortest.helper.GifMovieView;
+import com.squareup.picasso.Picasso;
+
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author ebiz_asc1
@@ -23,23 +34,28 @@ public class HomeActivity extends AsyncTask<String, Void, Object> {
     private Activity a;
     private Context context;
     private View rootView;
-    private ProgressDialog dialog;
     public RelativeLayout insertPoint;
     private GifMovieView gifView;
-    private progressbarCustom objProgressDialog;
-
+    private TextView txtFullName;
+    private TextView txtCustomdesc;
     public void setInstance(Activity a, Context context, View rootView) {
         this.context = context;
         this.a = a;
         this.rootView = rootView;
         this.insertPoint = (RelativeLayout) this.rootView.findViewById(R.id.customloadingGround);
+        this.txtFullName = (TextView) this.rootView.findViewById(R.id.txtFullName);
+        this.txtCustomdesc = (TextView) this.rootView.findViewById(R.id.txtCustomdesc);
         this.gifView = new GifMovieView(this.context);
         this.insertPoint.addView(this.gifView);
         this.imgProfile = (ImageView) this.rootView.findViewById(R.id.imgProfile);
-        Bitmap bitMapProfile = ((BitmapDrawable) this.a.getResources().getDrawable(R.drawable.img_snoop)).getBitmap();
-        this.imgProfile.setImageBitmap(bitMapProfile);
 
 
+        txtFullName.setText(ListUser.first_name + " " + ListUser.last_name);
+        this.txtCustomdesc.setText(ListUser.about);
+        Log.d(ListItem.TAG,ListUser.id);
+
+        Picasso.with(context).load("http://graph.facebook.com/"+ListUser.id+"/picture?type=large").into(imgProfile);
+        //
         this.execute();
     }
     @Override

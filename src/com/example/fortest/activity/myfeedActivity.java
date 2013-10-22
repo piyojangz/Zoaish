@@ -1,6 +1,5 @@
 package com.example.fortest.activity;
 
-import com.example.fortest.custom.progressbarCustom;
 import com.example.fortest.helper.GifMovieView;
 import com.example.fortest.custom.myfeedAdapter;
 import com.example.fortest.R;
@@ -49,7 +48,6 @@ public class myfeedActivity extends AsyncTask<String, Void, Object> {
     protected static final int PERPAGE = 10;
     private View rootView;
     private GifMovieView gifView;
-    private progressbarCustom objProgressDialog;
 
     public void create_feed(Activity a, Context context, ListView lv, View rootView) {
         this.context = context;

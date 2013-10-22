@@ -3,6 +3,7 @@ import com.example.fortest.R;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.app.Activity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -15,7 +16,6 @@ import com.example.fortest.custom.setAppFont;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import com.example.fortest.R;
 /**
  * Created by ebiz_asc1 on 10/2/13.
  */
