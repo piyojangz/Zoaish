@@ -10,18 +10,19 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
 import com.example.fortest.ListItem;
 import com.example.fortest.R;
 import java.util.ArrayList;
 import java.util.HashMap;
 
 
-public class MenuAdapter extends BaseAdapter  {
+public class MenuAdapter extends BaseAdapter {
 
     private Activity activity;
     private ArrayList<HashMap<String, String>> data;
     private static LayoutInflater inflater = null;
-    private static final String TAG = "MyActivity";
+    private static final String TAG = "BallLogs";
     private Typeface typeFace;
 
     public MenuAdapter(Activity a, ArrayList<HashMap<String, String>> d) {
@@ -62,14 +63,13 @@ public class MenuAdapter extends BaseAdapter  {
         txt_title.setText(smart.get(ListItem.KEY_TITLE));
         int id = this.activity.getResources().getIdentifier("com.example.fortest1:drawable/" + smart.get(ListItem.KEY_IMG), null, null);
         list_image.setImageResource(id);
-        if(smart.get(ListItem.KEY_NOTIFICAIONCOUNT) != "0"){
+        if (smart.get(ListItem.KEY_NOTIFICAIONCOUNT) != "0") {
             txt_notificationcount.setText(smart.get(ListItem.KEY_NOTIFICAIONCOUNT));
-        }
-        else{
+        } else {
             lnotification.setVisibility(View.INVISIBLE);
         }
 
-
+        Log.d(TAG, "Log");
 
         // String url = smart.get(ListItem.KEY_IMG).toString();
 
@@ -81,8 +81,6 @@ public class MenuAdapter extends BaseAdapter  {
 
         return convertView;
     }
-
-
 
 
 }
