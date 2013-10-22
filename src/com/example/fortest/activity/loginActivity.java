@@ -12,7 +12,7 @@ import com.easy.facebook.android.facebook.LoginListener;
         import android.os.Bundle;
 
 public class loginActivity extends Activity implements LoginListener {
-    /** Called when the activity is first created. */
+    /** Called when the activity is first created.. */
 
     private FBLoginManager fbLoginManager;
 
