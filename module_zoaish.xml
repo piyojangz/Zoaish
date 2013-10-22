@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_zoaish" default="compile.module.zoaish">
+  <dirname property="module.zoaish.basedir" file="${ant.file.module_zoaish}"/>
+  
+  <property name="module.jdk.home.zoaish" value="${jdk.home.android_api_17_platform}"/>
+  <property name="module.jdk.bin.zoaish" value="${jdk.bin.android_api_17_platform}"/>
+  <property name="module.jdk.classpath.zoaish" value="jdk.classpath.android_api_17_platform"/>
+  
+  <property name="compiler.args.zoaish" value="${compiler.args}"/>
+  
+  <property name="zoaish.output.dir" value="${module.zoaish.basedir}/out/production/Zoaish"/>
+  <property name="zoaish.testoutput.dir" value="${module.zoaish.basedir}/out/test/Zoaish"/>
+  
+  <path id="zoaish.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="zoaish.module.production.classpath">
+    <path refid="${module.jdk.classpath.zoaish}"/>
+    <path refid="library.libs.classpath"/>
+  </path>
+  
+  <path id="zoaish.runtime.production.module.classpath">
+    <pathelement location="${zoaish.output.dir}"/>
+    <path refid="library.libs.classpath"/>
+  </path>
+  
+  <path id="zoaish.module.classpath">
+    <path refid="${module.jdk.classpath.zoaish}"/>
+    <pathelement location="${zoaish.output.dir}"/>
+    <path refid="library.libs.classpath"/>
+  </path>
+  
+  <path id="zoaish.runtime.module.classpath">
+    <pathelement location="${zoaish.testoutput.dir}"/>
+    <pathelement location="${zoaish.output.dir}"/>
+    <path refid="library.libs.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.zoaish">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.zoaish">
+    <patternset refid="compiler.excluded"/>
+    <patternset refid="excluded.from.module.zoaish"/>
+  </patternset>
+  
+  <path id="zoaish.module.sourcepath">
+    <dirset dir="${module.zoaish.basedir}">
+      <include name="gen"/>
+      <include name="src"/>
+      <include name="gen/com/example/fortest"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.zoaish" depends="compile.module.zoaish.production,compile.module.zoaish.tests" description="Compile module Zoaish"/>
+  
+  <target name="compile.module.zoaish.production" depends="register.custom.compilers" description="Compile module Zoaish; production classes">
+    <mkdir dir="${zoaish.output.dir}"/>
+    <javac2 destdir="${zoaish.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.zoaish}/javac">
+      <compilerarg line="${compiler.args.zoaish}"/>
+      <bootclasspath refid="zoaish.module.bootclasspath"/>
+      <classpath refid="zoaish.module.production.classpath"/>
+      <src refid="zoaish.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.zoaish"/>
+    </javac2>
+    
+    <copy todir="${zoaish.output.dir}">
+      <fileset dir="${module.zoaish.basedir}/gen">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+        <patternset refid="excluded.from.compilation.zoaish"/>
+      </fileset>
+      <fileset dir="${module.zoaish.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+        <patternset refid="excluded.from.compilation.zoaish"/>
+      </fileset>
+      <fileset dir="${module.zoaish.basedir}/gen/com/example/fortest">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+        <patternset refid="excluded.from.compilation.zoaish"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.zoaish.tests" depends="register.custom.compilers,compile.module.zoaish.production" description="compile module Zoaish; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.zoaish" description="cleanup module">
+    <delete dir="${zoaish.output.dir}"/>
+    <delete dir="${zoaish.testoutput.dir}"/>
+  </target>
+</project>
