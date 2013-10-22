@@ -2,11 +2,8 @@
   <library name="android-support-v4">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/" />
-      <root url="jar://D:/KodeFunFBApp/lib/easyfacebookandroidsdk_2.2.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="jar://D:/KodeFunFBApp/lib/easyfacebookandroidsdk_2.2.jar!/" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>
