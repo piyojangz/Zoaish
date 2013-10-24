@@ -18,12 +18,18 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.example.fortest.business.BuUserdata;
 import com.example.fortest.custom.progressbarCustom;
 import com.example.fortest.helper.GifMovieView;
+import com.example.fortest.helper.SessionManager;
 import com.squareup.picasso.Picasso;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -50,13 +56,15 @@ public class HomeActivity extends AsyncTask<String, Void, Object> {
         this.insertPoint.addView(this.gifView);
         this.imgProfile = (ImageView) this.rootView.findViewById(R.id.imgProfile);
         this.imageBgProfile = (ImageView) this.rootView.findViewById(R.id.imageBgProfile);
-
-
         this.txtFullName.setText(ListUser.name);
         if(ListUser.about != null)this.txtCustomdesc.setText(ListUser.about);
         else this.txtCustomdesc.setText("You can set custom description from setting");
-        Picasso.with(context).load(" http://graph.facebook.com/"+ListUser.facebook_id+"?fields=cover").into(imageBgProfile);
-        Picasso.with(context).load("http://graph.facebook.com/"+ListUser.facebook_id+"/picture?type=large").into(imgProfile);
+
+        SessionManager ObjuserLogin = new SessionManager(this.context);
+        HashMap<String, String> User = ObjuserLogin.getUserDetails();
+        String Fbcover =  BuUserdata.getusermemberbyfacebookcoverphoto( User.get("facebookid"));
+        Picasso.with(context).load(Fbcover).into(imageBgProfile);
+        Picasso.with(context).load("http://graph.facebook.com/"+User.get("facebookid")+"/picture?type=large").into(imgProfile);
         this.execute();
     }
     @Override

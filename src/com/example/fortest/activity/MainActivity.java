@@ -57,6 +57,7 @@ public class MainActivity extends Activity {
     private ImageView imgProfilemenu;
     private TextView txtMenufullname;
     private static String CurentMenu;
+    private String ISLOGIN = "";
     private TextView txtMenuLocation;
     static final int PICK_CONTACT_REQUEST = 1;  // The request code
     private static SessionManager session;
@@ -66,6 +67,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_blank);
+        this.ISLOGIN = getIntent().getStringExtra("IS_LOGIN");
         session = new SessionManager(getApplicationContext());
         session.checkLogin();
         typeFace = Typeface.createFromAsset(this.getAssets(), "fonts/HelveticaNeueLight.ttf");
@@ -126,7 +128,19 @@ public class MainActivity extends Activity {
         mDrawerLayout.setDrawerListener(mDrawerToggle);
 
         if (savedInstanceState == null) {
-            selectItem(1);// if default
+            Log.d(ListItem.TAG,"ISLOGIN = " + ISLOGIN);
+            if(ISLOGIN != null){
+            if(ISLOGIN.equals("true")){
+                setUpprofile();
+            }
+            else{
+                selectItem(1);
+            }
+            }
+            else{
+                selectItem(1);
+            }
+
         }
 
     }
@@ -292,14 +306,8 @@ public class MainActivity extends Activity {
 
     }
 
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        // Check which request we're responding to
-        if (requestCode == PICK_CONTACT_REQUEST) {
-            // Make sure the request was successful
-            if (resultCode == RESULT_OK) {
-                String result = data.getExtras().getString("fbresult");
-                if (result.equals("true")) {
+    public void setUpprofile() {
+
                     this.is_fistseletedItem = true;
                     this.selectItem(0);
                     // Log.d(ListItem.TAG, "txtMenufullname =" + txtMenufullname);
@@ -307,13 +315,6 @@ public class MainActivity extends Activity {
                     this.txtMenufullname.setText(ListUser.name);
                     this.txtMenuLocation.setText(ListUser.location);
                 }
-                // The user picked a contact.
-                // The Intent's data Uri identifies which contact was selected.
-
-                // Do something with the contact here (bigger example below)
-            }
-        }
-    }
 
     @Override
     public void onBackPressed() {
@@ -331,14 +332,14 @@ public class MainActivity extends Activity {
                 .setNegativeButton("No", null)
                 .show();
     }
-    @Override
+ /*   @Override
     protected void onRestart() {
         // TODO Auto-generated method stub
         super.onRestart();
         if(this.isQuit)
             finish();
     }
-
+*/
 
 }
 

@@ -102,6 +102,9 @@ public class firstLoginActivity extends Activity {
             }
         });
     }
+
+
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         // Check which request we're responding to
@@ -112,6 +115,7 @@ public class firstLoginActivity extends Activity {
                 if (result.equals("true")) {
                     session.createLoginSession(ListUser.id,ListUser.facebook_id);
                     Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                    i.putExtra("IS_LOGIN", "true");
                     startActivity(i);
                     finish();
                 }

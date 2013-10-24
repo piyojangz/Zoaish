@@ -1,6 +1,5 @@
 package com.example.fortest.activity;
 
-import com.easy.facebook.android.data.Images;
 import com.easy.facebook.android.data.Location;
 import com.example.fortest.ListItem;
 import com.example.fortest.ListUser;
@@ -12,36 +11,15 @@ import com.easy.facebook.android.facebook.FBLoginManager;
 import com.easy.facebook.android.facebook.Facebook;
 import com.easy.facebook.android.facebook.LoginListener;
 import com.example.fortest.business.BuUserdata;
-import com.example.fortest.helper.JasonHelper;
 
-import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.StrictMode;
 import android.util.Log;
 import android.app.Activity;
 import android.os.Bundle;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.NameValuePair;
-import org.apache.http.StatusLine;
-import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.entity.UrlEncodedFormEntity;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.message.BasicNameValuePair;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 public class loginActivity extends Activity implements LoginListener {
     /**
@@ -117,14 +95,17 @@ public class loginActivity extends Activity implements LoginListener {
                 permissions);
 
         if (fbLoginManager.existsSavedFacebook()) {
+            Log.d(ListItem.TAG,"existsSavedFacebook()");
             fbLoginManager.loadFacebook();
         } else {
+            Log.d(ListItem.TAG,"login()");
             fbLoginManager.login();
         }
     }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, android.content.Intent data) {
+
         fbLoginManager.loginSuccess(data);
     }
 
@@ -133,13 +114,15 @@ public class loginActivity extends Activity implements LoginListener {
         User user = new User();
         Location locate = new Location();
         Intent returnIntent = new Intent();
+
         try {
             user = graphApi.getMyAccountInfo();
             ArrayList<HashMap<String, String>> MyArrList;
+
             MyArrList = BuUserdata.getusermemberbyfacebookid(user.getId());
+          //  Log.d(ListItem.TAG,"MyArrList = "+ MyArrList);
             locate = user.getLocation();
             if (MyArrList.size() == 0) {
-
                 graphApi.setStatus("I just using Zoaish application...",getString(R.string.appiconurl));   //update your status if logged in
                 //***********************************************
                 // insert data to webservice here!!
@@ -163,7 +146,7 @@ public class loginActivity extends Activity implements LoginListener {
             setResult(RESULT_CANCELED, returnIntent);
             Log.d("TAG: ", e.toString());
         }
-
+        Log.d(ListItem.TAG,"loginSuccess() = " + user);
         finish();
     }
 

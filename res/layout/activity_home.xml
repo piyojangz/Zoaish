@@ -26,7 +26,7 @@
                     android:layout_height="fill_parent"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
-                    android:background="@drawable/sample_bg1" />
+                    android:background="#2C3E50" />
 
 
                 <FrameLayout
@@ -90,7 +90,7 @@
                     android:id="@+id/txtCustomdesc" />
 
 
-                <FrameLayout
+             <!--   <FrameLayout
                     android:layout_width="match_parent"
                     android:background="@drawable/gradient_bg_1"
                     android:layout_gravity="top"
@@ -109,7 +109,7 @@
                     android:layout_gravity="top"
                     android:layout_marginTop="50dp"
                     android:background="@drawable/drop_shadow"></View>
-
+-->
             </FrameLayout>
 
 
