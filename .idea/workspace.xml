@@ -54,30 +54,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcca8f5a-134a-47a9-9766-333875a7be3a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/fail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/success.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/fortest/helper/AlertDialogManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/fortest/business/BuUserdata.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/fortest/helper/JasonHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/fortest/helper/SessionManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_login.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_support_v41.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/bg_fbbutton.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/bg_fbbuttonunselected.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/bg_zoaishbutton.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/bg_zoaishbuttonunselected.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btnfb_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btnzoaish_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/fortest/activity/firstLoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/example/fortest/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/example/fortest/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/activity/HomeActivity.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/activity/HomeActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/ListUser.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/ListUser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/activity/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/activity/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/activity/loginActivity.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/activity/loginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/activity/myConversationActivity.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/activity/myConversationActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Zoaish.iws" />
@@ -952,7 +928,11 @@
       <created>1382439513014</created>
       <updated>1382439513014</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="breeshy">
+      <created>1382611882216</created>
+      <updated>1382611882216</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
