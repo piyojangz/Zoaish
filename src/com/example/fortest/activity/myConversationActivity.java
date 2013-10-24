@@ -4,6 +4,7 @@ import android.graphics.Typeface;
 import android.os.Bundle;
 import android.app.Activity;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -128,11 +129,21 @@ public class myConversationActivity extends Activity {
         return super.onPrepareOptionsMenu(menu);
 
     }
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if (keyCode == KeyEvent.KEYCODE_BACK && event.getRepeatCount() == 0) {
+            MainActivity.isQuit = false;
+            finish();
+            return true;
+        }
 
+        return super.onKeyDown(keyCode, event);
+    }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_close:
+                MainActivity.isQuit = false;
                 finish();
                 return true;
             default:

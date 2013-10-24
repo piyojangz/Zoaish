@@ -3,7 +3,7 @@
   <component name="AndroidConfiguredLogFilters">
     <filters>
       <filter>
-        <option name="logLevel" value="verbose" />
+        <option name="logLevel" value="debug" />
         <option name="logMessagePattern" value="" />
         <option name="logTagPattern" value="MyActivity" />
         <option name="name" value="Unnamed-0" />
@@ -54,23 +54,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcca8f5a-134a-47a9-9766-333875a7be3a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/fortest/ListUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/easyfacebookandroidsdk_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/fail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/success.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/fortest/helper/AlertDialogManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/fortest/business/BuUserdata.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/fortest/helper/JasonHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/fortest/helper/SessionManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_login.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_support_v41.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/bg_fbbutton.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/bg_fbbuttonunselected.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/bg_zoaishbutton.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/bg_zoaishbuttonunselected.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btnfb_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btnzoaish_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/fortest/activity/firstLoginActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/example/fortest/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/example/fortest/BuildConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/activity/HomeActivity.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/activity/HomeActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/ListItem.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/ListItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/ListUser.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/ListUser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/activity/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/activity/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/example/fortest/Manifest.java" afterPath="$PROJECT_DIR$/gen/com/example/fortest/Manifest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/custom/MenuAdapter.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/custom/MenuAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/example/fortest/R.java" afterPath="$PROJECT_DIR$/gen/com/example/fortest/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_blank.xml" afterPath="$PROJECT_DIR$/res/layout/activity_blank.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_home.xml" afterPath="$PROJECT_DIR$/res/layout/activity_home.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/activity/loginActivity.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/activity/loginActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/activity/myConversationActivity.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/activity/myConversationActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/activity/myfeedActivity.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/activity/myfeedActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/activity/mymessageActivity.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/activity/mymessageActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Zoaish.iws" />
@@ -408,40 +415,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="firstLoginActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/firstLoginActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="131" column="5" selection-start="4609" selection-end="4963" vertical-scroll-proportion="-8.76" vertical-offset="1940" max-vertical-offset="2295">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1827#2090#0" expanded="true" />
+                <element signature="e#2079#2080#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="56" selection-start="2029" selection-end="2029" vertical-scroll-proportion="0.0" vertical-offset="618" max-vertical-offset="5508">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_blank.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/activity_blank.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="39" selection-start="2741" selection-end="2741" vertical-scroll-proportion="0.0" vertical-offset="892" max-vertical-offset="2142">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/HomeActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="59" selection-start="1647" selection-end="1647" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="1836">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loginActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/loginActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="34" selection-start="1616" selection-end="1616" vertical-scroll-proportion="0.12525253" vertical-offset="652" max-vertical-offset="2584">
+            <state line="339" column="5" selection-start="13291" selection-end="13455" vertical-scroll-proportion="-9.6" vertical-offset="5421" max-vertical-offset="5865">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -449,19 +439,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Location.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/libs/easyfacebookandroidsdk_2.3.jar!/com/easy/facebook/android/data/Location.java">
+      <file leaf-file-name="myConversationActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/myConversationActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="19" selection-start="79" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="2414">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListUser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/fortest/ListUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="226" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="391">
+            <state line="128" column="48" selection-start="6338" selection-end="6338" vertical-scroll-proportion="0.1392405" vertical-offset="1843" max-vertical-offset="2431">
               <folding />
             </state>
           </provider>
@@ -486,22 +467,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/fortest/widget/LoginButton.java" />
-        <option value="$PROJECT_DIR$/res/layout/login.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/fortest/TopCenterImageView.java" />
-        <option value="D:/KodeFunFBApp/src/net/junian/kodefun/fbapp/KodeFunFBAppActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/example/fortest/activity/mymessageActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/example/fortest/custom/MenuAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/example/fortest/helper/AlertDialogManager.java" />
+        <option value="D:/SessionsUsingSharedPreferences/src/com/androidhive/sessions/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/fortest/activity/firstAuthenActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/fortest/ListItem.java" />
-        <option value="$PROJECT_DIR$/src/com/example/fortest/activity/myConversationActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/activity_home.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/fortest/activity/HomeActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/example/fortest/ListUser.java" />
-        <option value="$PROJECT_DIR$/src/com/example/fortest/activity/loginActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/activity_blank.xml" />
-        <option value="$PROJECT_DIR$/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/src/com/example/fortest/activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/res/drawable/btnfb_unselector.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/btnfb_selector.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/btnzoaish_selector.xml" />
+        <option value="$PROJECT_DIR$/res/layout/activity_login.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/bg_fbbuttonunselected.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/bg_fbbutton.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/bg_zoaishbutton.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/bg_zoaishbuttonunselected.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/fortest/activity/firstLoginActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/fortest/helper/SessionManager.java" />
+        <option value="$PROJECT_DIR$/src/com/example/fortest/activity/myConversationActivity.java" />
       </list>
     </option>
   </component>
@@ -511,8 +492,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -540,8 +521,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -549,64 +528,6 @@
               <option name="myItemId" value="Zoaish" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Android API 17 Platform &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Android API 17 Platform &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Android API 17 Platform &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -654,7 +575,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="custom" />
+              <option name="myItemId" value="helper" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -708,102 +629,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="easyfacebookandroidsdk_2.3.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="easyfacebookandroidsdk_2.3.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KodeFunFBApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KodeFunFBApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fbapp" />
+              <option name="myItemId" value="drawable" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -812,7 +645,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/KodeFunFBApp" />
+    <property name="last_opened_file_path" value="D:/SessionsUsingSharedPreferences" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
@@ -839,23 +672,20 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.fortest.activity" />
       <recent name="com.example.fortest" />
       <recent name="com.example.fortest.helper.facebook.widget" />
-      <recent name="com.example.fortest.activity" />
       <recent name="com.example.fortest.custom" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AndroidProject\Zoaish\res\drawable" />
+      <recent name="D:\AndroidProject\Zoaish\res\drawable-hdpi" />
+      <recent name="D:\AndroidProject\Zoaish\src\com\example\fortest\helper" />
+      <recent name="D:\AndroidProject\Zoaish\res\layout" />
       <recent name="D:\Zoaish\libs" />
-      <recent name="D:\Zoaish\res\layout" />
-      <recent name="C:\Users\ebiz_asc1\Desktop\Zoaish\res\drawable" />
-      <recent name="C:\Users\ebiz_asc1\Desktop\Zoaish\res\layout" />
-      <recent name="C:\Users\ebiz_asc1\Desktop\Zoaish\res\anim" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.facebook.widget" />
-      <recent name="com.example.fortest" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.fortest" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -864,6 +694,9 @@
       <recent name="D:\Zoaish\res\layout\list" />
       <recent name="D:\Zoaish\res\layout\bg" />
       <recent name="D:\Zoaish\res\layout\tab" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.fortest" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.Zoaish">
@@ -875,6 +708,7 @@
       <option name="CLASS_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -908,19 +742,6 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -946,6 +767,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -988,6 +822,7 @@
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -1005,6 +840,7 @@
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -1024,6 +860,7 @@
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -1037,9 +874,30 @@
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
-    <list size="2">
+    <configuration default="false" name="SessionsUsingSharedPreferences" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="SessionsUsingSharedPreferences" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="true" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Android Application.Zoaish" />
       <item index="1" class="java.lang.String" itemvalue="Android Application.KodeFunFBApp" />
+      <item index="2" class="java.lang.String" itemvalue="Android Application.SessionsUsingSharedPreferences" />
     </list>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -1118,35 +976,36 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25653595" sideWeight="0.85065883" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.422049" sideWeight="0.11045891" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25653595" sideWeight="0.85065883" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41993463" sideWeight="0.11054173" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4211111" sideWeight="0.88900745" order="3" side_tool="false" content_ui="combo" x="23" y="262" width="1320" height="203" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.77107793" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41993463" sideWeight="0.8894583" order="4" side_tool="false" content_ui="combo" x="23" y="262" width="1320" height="203" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24924242" sideWeight="0.65704584" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.57240206" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2113127" sideWeight="0.5788889" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26169264" sideWeight="0.84311634" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21083455" sideWeight="0.5788889" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26143792" sideWeight="0.84311634" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.76948774" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.6683006" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25801283" sideWeight="0.577951" order="5" side_tool="true" content_ui="tabs" x="764" y="175" width="714" height="706" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2505568" sideWeight="0.77107793" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31844804" sideWeight="0.577951" order="5" side_tool="true" content_ui="tabs" x="764" y="175" width="714" height="706" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1164,118 +1023,126 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/libs/easyfacebookandroidsdk_2.3.jar!/com/easy/facebook/android/data/Album.java">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="13" selection-start="969" selection-end="969" vertical-scroll-proportion="-3.689655" vertical-offset="1887" max-vertical-offset="2584" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/easyfacebookandroidsdk_2.3.jar!/com/easy/facebook/android/apicall/GraphApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1988" column="16" selection-start="60492" selection-end="60492" vertical-scroll-proportion="0.33333334" vertical-offset="32888" max-vertical-offset="34986" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/myfeedActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="37" selection-start="3665" selection-end="3665" vertical-scroll-proportion="-0.03448276" vertical-offset="1377" max-vertical-offset="4420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/DownloadImageTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="11" selection-start="604" selection-end="604" vertical-scroll-proportion="0.32692307" vertical-offset="153" max-vertical-offset="850">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/custom/myfeedAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="7" selection-start="3322" selection-end="3399" vertical-scroll-proportion="0.7586207" vertical-offset="663" max-vertical-offset="1904">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/ListUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="226" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/easyfacebookandroidsdk_2.3.jar!/com/easy/facebook/android/data/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="13" selection-start="992" selection-end="992" vertical-scroll-proportion="-0.86206895" vertical-offset="510" max-vertical-offset="8279" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_home.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="34" selection-start="4905" selection-end="4955" vertical-scroll-proportion="0.89102566" vertical-offset="1759" max-vertical-offset="2431">
+        <state line="20" column="49" selection-start="677" selection-end="677" vertical-scroll-proportion="0.74164134" vertical-offset="96" max-vertical-offset="765">
           <folding>
-            <element signature="e#3264#3279#0" expanded="false" />
+            <element signature="e#752#770#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/easyfacebookandroidsdk_2.3.jar!/com/easy/facebook/android/data/Location.java">
+    <entry file="file://$PROJECT_DIR$/.project">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="19" selection-start="79" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2414">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/myfeedActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="194" column="37" selection-start="7327" selection-end="7327" vertical-scroll-proportion="0.8126411" vertical-offset="2938" max-vertical-offset="4369">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_blank.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="39" selection-start="2741" selection-end="2741" vertical-scroll-proportion="0.0" vertical-offset="892" max-vertical-offset="2142">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/adt-bundle-windows-x86_64-20130911/sdk/sources/android-17/android/app/Fragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="752" column="26" selection-start="28666" selection-end="28666" vertical-scroll-proportion="0.3326572" vertical-offset="11923" max-vertical-offset="31892" />
-      </provider>
-    </entry>
-    <entry file="file://D:/adt-bundle-windows-x86_64-20130911/sdk/sources/android-17/android/view/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="17" selection-start="2065" selection-end="2065" vertical-scroll-proportion="0.3326572" vertical-offset="414" max-vertical-offset="7429" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="56" selection-start="2029" selection-end="2029" vertical-scroll-proportion="0.0" vertical-offset="618" max-vertical-offset="5508">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/HomeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="59" selection-start="1647" selection-end="1647" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="1836">
+        <state line="64" column="72" selection-start="2085" selection-end="2086" vertical-scroll-proportion="0.33333334" vertical-offset="583" max-vertical-offset="4420">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/loginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="34" selection-start="1616" selection-end="1616" vertical-scroll-proportion="0.12525253" vertical-offset="652" max-vertical-offset="2584">
+        <state line="162" column="15" selection-start="5864" selection-end="5864" vertical-scroll-proportion="0.6772152" vertical-offset="2540" max-vertical-offset="3111">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/bg_button.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/btnzoaish_selector.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="11" selection-start="312" selection-end="312" vertical-scroll-proportion="0.20668693" vertical-offset="0" max-vertical-offset="329">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_login.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/bg_fbbuttonunselected.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="65" selection-start="949" selection-end="949" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/bg_fbbutton.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="65" selection-start="949" selection-end="949" vertical-scroll-proportion="0.50151974" vertical-offset="243" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/btnfb_selector.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="42" selection-start="192" selection-end="192" vertical-scroll-proportion="0.103343464" vertical-offset="0" max-vertical-offset="329">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/bg_zoaishbutton.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="11" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/bg_zoaishbuttonunselected.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="52" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/helper/SessionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="24" selection-start="2370" selection-end="2370" vertical-scroll-proportion="-0.1337386" vertical-offset="1574" max-vertical-offset="2227">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="339" column="5" selection-start="13291" selection-end="13455" vertical-scroll-proportion="-9.6" vertical-offset="5421" max-vertical-offset="5865">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/firstLoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="131" column="5" selection-start="4609" selection-end="4963" vertical-scroll-proportion="-8.76" vertical-offset="1940" max-vertical-offset="2295">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1827#2090#0" expanded="true" />
+            <element signature="e#2079#2080#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/myConversationActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="48" selection-start="6338" selection-end="6338" vertical-scroll-proportion="0.1392405" vertical-offset="1843" max-vertical-offset="2431">
+          <folding />
         </state>
       </provider>
     </entry>

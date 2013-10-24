@@ -10,6 +10,8 @@
     <string name="app_name">ZOAISH+</string>
     <string name="lorem">Duis dis tincidunt sed rhoncus, ultrices! Sagittis, augue! Nisi augue tristique nec velit.</string>
     <string name="lorem2">Pellentesque odio ut! Elementum ut odio, tincidunt vut urna sit rhoncus velit dapibus sit et porta. </string>
+    <string name="appiconurl">http://www.zoaish.com/public/appicon/appicon.png</string>
+
     <string-array name="menus_array">
         <item>HOME</item>
         <item>FEED</item>

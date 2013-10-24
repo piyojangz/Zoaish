@@ -2,11 +2,12 @@ package com.example.fortest.activity;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.Fragment;
 import android.app.FragmentManager;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.v4.view.GravityCompat;
@@ -20,8 +21,6 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
 import android.view.View;
 import android.widget.ImageView;
@@ -34,6 +33,7 @@ import com.example.fortest.custom.MenuAdapter;
 import com.example.fortest.ListItem;
 import com.example.fortest.custom.setAppFont;
 import com.example.fortest.R;
+import com.example.fortest.helper.SessionManager;
 import com.squareup.picasso.Picasso;
 
 /**
@@ -59,11 +59,15 @@ public class MainActivity extends Activity {
     private static String CurentMenu;
     private TextView txtMenuLocation;
     static final int PICK_CONTACT_REQUEST = 1;  // The request code
+    private static SessionManager session;
+    public static boolean isQuit = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_blank);
+        session = new SessionManager(getApplicationContext());
+        session.checkLogin();
         typeFace = Typeface.createFromAsset(this.getAssets(), "fonts/HelveticaNeueLight.ttf");
         mTitle = mDrawerTitle = getTitle();
         getActionBar().setDisplayHomeAsUpEnabled(true);
@@ -86,7 +90,7 @@ public class MainActivity extends Activity {
         typeFace = Typeface.createFromAsset(this.getAssets(), "fonts/HelveticaNeueLight.ttf");
         setAppFont.setAppFont(mContainer, typeFace);
         sList = new ArrayList<HashMap<String, String>>();
-        String[] menu = {"Home", "Feed", "Message", "Item", "Favorite", "Login", "Setting"};
+        String[] menu = {"Home", "Feed", "Message", "Item", "Favorite", "Logout", "Setting"};
         this.menuItems = menu;
         String[] notification = {"0", "23", "13", "2", "0", "0", "0"};
         String[] img = {"ic_home", "ic_feed", "ic_message", "ic_item", "ic_boardpin", "ic_logout", "ic_setting2"};
@@ -170,11 +174,11 @@ public class MainActivity extends Activity {
     private void selectItem(int position) {
         // update selected item and title, then close the drawer
 
-            this.selectedposition = position;
-            if (is_fistseletedItem) activeItem();
-            mDrawerList.setItemChecked(position, true);
+        this.selectedposition = position;
+        if (is_fistseletedItem) activeItem();
+        mDrawerList.setItemChecked(position, true);
 
-           mDrawerLayout.closeDrawer(mDrawerMenu);
+        mDrawerLayout.closeDrawer(mDrawerMenu);
 
     }
 
@@ -230,10 +234,8 @@ public class MainActivity extends Activity {
             int i = getArguments().getInt(ARG_MENU_NUMBER);
             String Menu = menuItems[i];
             View rootView = null;
-            Animation anim = AnimationUtils.loadAnimation(this.getActivity().getBaseContext(),
-                    R.anim.showin);
-            anim = AnimationUtils.loadAnimation(this.getActivity().getBaseContext(),
-                    R.anim.showin);
+            //Animation anim = AnimationUtils.loadAnimation(this.getActivity().getBaseContext(),
+            //  R.anim.showin);
             ListView lv;
             ListItem.USERID = "90999900";
             switch (i) {
@@ -241,41 +243,42 @@ public class MainActivity extends Activity {
                     HomeActivity objhome = new HomeActivity();
                     rootView = inflater.inflate(R.layout.activity_home, container, false);
                     objhome.setInstance(this.getActivity(), this.getActivity(), rootView);
-                    rootView.setAnimation(anim);
+                    //rootView.setAnimation(anim);
                     break;
                 case 1:
                     myfeedActivity objfeedact = new myfeedActivity();
                     rootView = inflater.inflate(R.layout.mylistview, container, false);
                     lv = (ListView) rootView.findViewById(R.id.myfeed_listView);
                     objfeedact.create_feed(this.getActivity(), this.getActivity(), lv, rootView);
-                    rootView.setAnimation(anim);
+                    //rootView.setAnimation(anim);
                     break;
                 case 2:
                     mymessageActivity objmsgact = new mymessageActivity();
                     rootView = inflater.inflate(R.layout.mylistview, container, false);
                     lv = (ListView) rootView.findViewById(R.id.myfeed_listView);
                     objmsgact.create_feed(this.getActivity(), this.getActivity(), lv, rootView);
-                    rootView.setAnimation(anim);
+                    //rootView.setAnimation(anim);
                     break;
                 case 3:
                     rootView = inflater.inflate(R.layout.fragment_planet, container, false);
-                    rootView.setAnimation(anim);
+                    // rootView.setAnimation(anim);
                     break;
                 case 4:
                     rootView = inflater.inflate(R.layout.fragment_planet, container, false);
-                    rootView.setAnimation(anim);
+                    // rootView.setAnimation(anim);
                     break;
                 case 5:
-                    Intent myIntent = new Intent(this.getActivity(), loginActivity.class);
-                    this.getActivity().startActivityForResult(myIntent, PICK_CONTACT_REQUEST);
+                    /*Intent myIntent = new Intent(this.getActivity(), loginActivity.class);
+                    this.getActivity().startActivityForResult(myIntent, PICK_CONTACT_REQUEST);*/
+                    session.logoutUser();
                     break;
                 case 6:
                     rootView = inflater.inflate(R.layout.fragment_planet, container, false);
-                    rootView.setAnimation(anim);
+                    // rootView.setAnimation(anim);
                     break;
                 default:
                     rootView = inflater.inflate(R.layout.fragment_planet, container, false);
-                    rootView.setAnimation(anim);
+                    // rootView.setAnimation(anim);
                     break;
             }
 
@@ -299,10 +302,10 @@ public class MainActivity extends Activity {
                 if (result.equals("true")) {
                     this.is_fistseletedItem = true;
                     this.selectItem(0);
-                    Log.d(ListItem.TAG, "txtMenufullname =" + txtMenufullname);
-                    Picasso.with(this).load("http://graph.facebook.com/" + ListUser.id + "/picture?type=large").into(this.imgProfilemenu);
-                    this.txtMenufullname.setText(ListUser.first_name + " " + ListUser.last_name);
-                    this.txtMenuLocation.setText(ListUser.country + ", " + ListUser.city);
+                    // Log.d(ListItem.TAG, "txtMenufullname =" + txtMenufullname);
+                    Picasso.with(this).load("http://graph.facebook.com/" + ListUser.facebook_id + "/picture?type=large").into(this.imgProfilemenu);
+                    this.txtMenufullname.setText(ListUser.name);
+                    this.txtMenuLocation.setText(ListUser.location);
                 }
                 // The user picked a contact.
                 // The Intent's data Uri identifies which contact was selected.
@@ -310,6 +313,30 @@ public class MainActivity extends Activity {
                 // Do something with the contact here (bigger example below)
             }
         }
+    }
+
+    @Override
+    public void onBackPressed() {
+        new AlertDialog.Builder(this)
+                .setIcon(android.R.drawable.ic_dialog_alert)
+                .setTitle("Zoaish alert")
+                .setMessage("Are you sure to close Zoaish?")
+                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        finish();
+                    }
+
+                })
+                .setNegativeButton("No", null)
+                .show();
+    }
+    @Override
+    protected void onRestart() {
+        // TODO Auto-generated method stub
+        super.onRestart();
+        if(this.isQuit)
+            finish();
     }
 
 

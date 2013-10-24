@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/Desktop/KodeFunFBApp/KodeFunFBApp.iml" filepath="$USER_HOME$/Desktop/KodeFunFBApp/KodeFunFBApp.iml" />
       <module fileurl="file://D:/KodeFunFBApp/KodeFunFBApp.iml" filepath="D:/KodeFunFBApp/KodeFunFBApp.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/KodeFunFBApp/KodeFunFBApp.iml" filepath="$USER_HOME$/Desktop/KodeFunFBApp/KodeFunFBApp.iml" />
+      <module fileurl="file://D:/SessionsUsingSharedPreferences/SessionsUsingSharedPreferences.iml" filepath="D:/SessionsUsingSharedPreferences/SessionsUsingSharedPreferences.iml" />
       <module fileurl="file://$PROJECT_DIR$/Zoaish.iml" filepath="$PROJECT_DIR$/Zoaish.iml" />
     </modules>
   </component>

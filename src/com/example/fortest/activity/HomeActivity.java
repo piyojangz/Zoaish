@@ -31,6 +31,7 @@ import java.util.List;
  */
 public class HomeActivity extends AsyncTask<String, Void, Object> {
     private ImageView imgProfile = null;
+    private ImageView imageBgProfile = null;
     private Activity a;
     private Context context;
     private View rootView;
@@ -48,14 +49,14 @@ public class HomeActivity extends AsyncTask<String, Void, Object> {
         this.gifView = new GifMovieView(this.context);
         this.insertPoint.addView(this.gifView);
         this.imgProfile = (ImageView) this.rootView.findViewById(R.id.imgProfile);
+        this.imageBgProfile = (ImageView) this.rootView.findViewById(R.id.imageBgProfile);
 
 
-        txtFullName.setText(ListUser.first_name + " " + ListUser.last_name);
-        this.txtCustomdesc.setText(ListUser.about);
-        Log.d(ListItem.TAG,ListUser.id);
-
-        Picasso.with(context).load("http://graph.facebook.com/"+ListUser.id+"/picture?type=large").into(imgProfile);
-        //
+        this.txtFullName.setText(ListUser.name);
+        if(ListUser.about != null)this.txtCustomdesc.setText(ListUser.about);
+        else this.txtCustomdesc.setText("You can set custom description from setting");
+        Picasso.with(context).load(" http://graph.facebook.com/"+ListUser.facebook_id+"?fields=cover").into(imageBgProfile);
+        Picasso.with(context).load("http://graph.facebook.com/"+ListUser.facebook_id+"/picture?type=large").into(imgProfile);
         this.execute();
     }
     @Override
