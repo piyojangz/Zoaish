@@ -131,12 +131,14 @@ public class loginActivity extends Activity implements LoginListener {
                 ListUser.name = user.getName();
                 ListUser.about = user.getAbout();
                 ListUser.location = locate.getCity() + "," + locate.getCountry();
+                ListUser.coverphoto = BuUserdata.getusermemberbyfacebookcoverphoto( user.getId());
             } else {
                 ListUser.id = MyArrList.get(0).get("id");
                 ListUser.facebook_id = MyArrList.get(0).get("facebook_id");
                 ListUser.name = MyArrList.get(0).get("name");
                 ListUser.about = MyArrList.get(0).get("about");
                 ListUser.location = MyArrList.get(0).get("location");
+                ListUser.coverphoto  = MyArrList.get(0).get("coverphoto");
             }
             returnIntent.putExtra("fbresult", "true");
             setResult(RESULT_OK, returnIntent);

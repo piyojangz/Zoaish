@@ -10,6 +10,7 @@ import android.app.FragmentManager;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Typeface;
+import android.os.StrictMode;
 import android.support.v4.view.GravityCompat;
 import android.util.Log;
 import android.os.Bundle;
@@ -29,6 +30,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.example.fortest.ListUser;
+import com.example.fortest.business.BuUserdata;
 import com.example.fortest.custom.MenuAdapter;
 import com.example.fortest.ListItem;
 import com.example.fortest.custom.setAppFont;
@@ -62,9 +64,23 @@ public class MainActivity extends Activity {
     static final int PICK_CONTACT_REQUEST = 1;  // The request code
     private static SessionManager session;
     public static boolean isQuit = false;
-
+    public static boolean DEVELOPER_MODE = true;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        if (DEVELOPER_MODE) {
+            StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder()
+                    .detectDiskReads()
+                    .detectDiskWrites()
+                    .detectNetwork()   // or .detectAll() for all detectable problems
+                    .penaltyLog()
+                    .build());
+            StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder()
+                    .detectLeakedSqlLiteObjects()
+                    .detectLeakedClosableObjects()
+                    .penaltyLog()
+                    .penaltyDeath()
+                    .build());
+        }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_blank);
         this.ISLOGIN = getIntent().getStringExtra("IS_LOGIN");
@@ -191,7 +207,6 @@ public class MainActivity extends Activity {
         this.selectedposition = position;
         if (is_fistseletedItem) activeItem();
         mDrawerList.setItemChecked(position, true);
-
         mDrawerLayout.closeDrawer(mDrawerMenu);
 
     }
@@ -256,14 +271,14 @@ public class MainActivity extends Activity {
                 case 0:
                     HomeActivity objhome = new HomeActivity();
                     rootView = inflater.inflate(R.layout.activity_home, container, false);
-                    objhome.setInstance(this.getActivity(), this.getActivity(), rootView);
+                    objhome.setInstance(this.getActivity(), this.getActivity(), rootView,session);
                     //rootView.setAnimation(anim);
                     break;
                 case 1:
                     myfeedActivity objfeedact = new myfeedActivity();
                     rootView = inflater.inflate(R.layout.mylistview, container, false);
                     lv = (ListView) rootView.findViewById(R.id.myfeed_listView);
-                    objfeedact.create_feed(this.getActivity(), this.getActivity(), lv, rootView);
+                    objfeedact.create_feed(this.getActivity(), this.getActivity(), lv, rootView,session);
                     //rootView.setAnimation(anim);
                     break;
                 case 2:
@@ -332,14 +347,14 @@ public class MainActivity extends Activity {
                 .setNegativeButton("No", null)
                 .show();
     }
- /*   @Override
+    @Override
     protected void onRestart() {
         // TODO Auto-generated method stub
         super.onRestart();
         if(this.isQuit)
             finish();
     }
-*/
+
 
 }
 

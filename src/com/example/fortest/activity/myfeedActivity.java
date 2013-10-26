@@ -21,6 +21,7 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 
 import com.example.fortest.ListItem;
+import com.example.fortest.helper.SessionManager;
 
 /**
  * Created by ebiz_asc1 on 10/2/13.
@@ -48,11 +49,12 @@ public class myfeedActivity extends AsyncTask<String, Void, Object> {
     protected static final int PERPAGE = 10;
     private View rootView;
     private GifMovieView gifView;
-
-    public void create_feed(Activity a, Context context, ListView lv, View rootView) {
+    private SessionManager session;
+    public void create_feed(Activity a, Context context, ListView lv, View rootView,SessionManager session) {
         this.context = context;
         this.a = a;
         this.lv = lv;
+        this.session = session;
         this.rootView = rootView;
         this.l = new ArrayList<String>();
         handler = new Handler();

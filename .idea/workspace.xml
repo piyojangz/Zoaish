@@ -51,19 +51,17 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Unnamed-0" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcca8f5a-134a-47a9-9766-333875a7be3a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/business/BuUserdata.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/business/BuUserdata.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/activity/HomeActivity.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/activity/HomeActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/ListUser.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/ListUser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/activity/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/activity/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_home.xml" afterPath="$PROJECT_DIR$/res/layout/activity_home.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/activity/firstLoginActivity.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/activity/firstLoginActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/activity/loginActivity.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/activity/loginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/activity/myfeedActivity.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/activity/myfeedActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\project\Zoaish\src\com\example\fortest\helper\JasonHelper.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/helper/JsonHelper.java" />
     </list>
     <ignored path="Zoaish.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -400,53 +398,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="firstLoginActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/firstLoginActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="63" selection-start="4446" selection-end="4467" vertical-scroll-proportion="0.0" vertical-offset="1289" max-vertical-offset="2006">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mymessageActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/mymessageActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="58" selection-start="3753" selection-end="3768" vertical-scroll-proportion="-6.28" vertical-offset="1016" max-vertical-offset="4692">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="29" selection-start="5479" selection-end="5479" vertical-scroll-proportion="0.0" vertical-offset="1382" max-vertical-offset="5406">
-              <folding>
-                <element signature="e#4708#4728#0" expanded="true" />
-                <element signature="e#4746#4767#0" expanded="true" />
-                <element signature="e#12746#12967#0" expanded="true" />
-                <element signature="e#12947#12948#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loginActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/loginActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="16" selection-start="5018" selection-end="5018" vertical-scroll-proportion="0.0" vertical-offset="2173" max-vertical-offset="2822">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/HomeActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="54" selection-start="2544" selection-end="2632" vertical-scroll-proportion="0.0" vertical-offset="294" max-vertical-offset="1462">
+            <state line="93" column="52" selection-start="3535" selection-end="3535" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="5525">
               <folding />
             </state>
           </provider>
@@ -455,22 +410,17 @@
       <file leaf-file-name="BuUserdata.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/fortest/business/BuUserdata.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="40" selection-start="1963" selection-end="1963" vertical-scroll-proportion="0.0" vertical-offset="634" max-vertical-offset="1258">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#705#720#0" expanded="true" />
-              </folding>
+            <state line="30" column="13" selection-start="1041" selection-end="1041" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1190">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonHelper.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/fortest/helper/JsonHelper.java">
+      <file leaf-file-name="HomeActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/HomeActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="34" selection-start="2058" selection-end="2058" vertical-scroll-proportion="0.43548387" vertical-offset="787" max-vertical-offset="1802">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="68" column="68" selection-start="2688" selection-end="2688" vertical-scroll-proportion="0.50403225" vertical-offset="362" max-vertical-offset="1513">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -494,22 +444,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/drawable/btnzoaish_selector.xml" />
-        <option value="$PROJECT_DIR$/res/layout/activity_login.xml" />
-        <option value="$PROJECT_DIR$/res/drawable/bg_fbbuttonunselected.xml" />
         <option value="$PROJECT_DIR$/res/drawable/bg_fbbutton.xml" />
         <option value="$PROJECT_DIR$/res/drawable/bg_zoaishbutton.xml" />
         <option value="$PROJECT_DIR$/res/drawable/bg_zoaishbuttonunselected.xml" />
         <option value="$PROJECT_DIR$/src/com/example/fortest/activity/myConversationActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/fortest/helper/SessionManager.java" />
         <option value="$PROJECT_DIR$/src/com/example/fortest/helper/JasonHelper.java" />
-        <option value="$PROJECT_DIR$/src/com/example/fortest/activity/loginActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/activity_home.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/fortest/activity/HomeActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/example/fortest/business/BuUserdata.java" />
-        <option value="$PROJECT_DIR$/src/com/example/fortest/helper/JsonHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/example/fortest/ListUser.java" />
+        <option value="$PROJECT_DIR$/src/com/example/fortest/activity/loginActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/fortest/activity/firstLoginActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/fortest/activity/myfeedActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/fortest/helper/JsonHelper.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/example/fortest/activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/fortest/business/BuUserdata.java" />
+        <option value="$PROJECT_DIR$/src/com/example/fortest/activity/HomeActivity.java" />
       </list>
     </option>
   </component>
@@ -548,6 +498,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -664,28 +615,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1005,7 +937,11 @@
       <created>1382611882216</created>
       <updated>1382611882216</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="breeshy">
+      <created>1382630028626</created>
+      <updated>1382630028626</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -1029,7 +965,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1044,12 +980,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.77107793" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42" sideWeight="0.8894583" order="4" side_tool="false" content_ui="combo" x="23" y="262" width="1320" height="203" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42" sideWeight="0.8894583" order="4" side_tool="false" content_ui="combo" x="23" y="262" width="1320" height="203" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24924242" sideWeight="0.65704584" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.57240206" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21077909" sideWeight="0.5788889" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21024546" sideWeight="0.5788889" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2611111" sideWeight="0.84311634" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.76948774" order="1" side_tool="false" content_ui="tabs" />
@@ -1076,135 +1012,121 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/libs/easyfacebookandroidsdk_2.3.jar!/com/easy/facebook/android/apicall/GraphApi.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1988" column="16" selection-start="60492" selection-end="60492" vertical-scroll-proportion="0.33333334" vertical-offset="32887" max-vertical-offset="34986">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4369">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/adt-bundle-windows-x86_64-20130911/sdk/sources/android-17/org/json/JSONException.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/myConversationActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="13" selection-start="1554" selection-end="1554" vertical-scroll-proportion="0.58870965" vertical-offset="201" max-vertical-offset="697">
+        <state line="40" column="84" selection-start="1387" selection-end="1465" vertical-scroll-proportion="0.80254775" vertical-offset="13" max-vertical-offset="2431" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/mymessageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="58" selection-start="3753" selection-end="3768" vertical-scroll-proportion="-0.891129" vertical-offset="1615" max-vertical-offset="4692">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/adt-bundle-windows-x86_64-20130911/sdk/sources/android-17/java/util/ArrayList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/ListUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="13" selection-start="1873" selection-end="1974" vertical-scroll-proportion="0.3326613" vertical-offset="209" max-vertical-offset="10965">
+        <state line="11" column="35" selection-start="323" selection-end="333" vertical-scroll-proportion="0.37701613" vertical-offset="0" max-vertical-offset="496">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/adt-bundle-windows-x86_64-20130911/sdk/sources/android-17/java/io/InputStream.java">
+    <entry file="file://D:/adt-bundle-windows-x86_64-20130911/sdk/sources/android-17/android/content/ContextWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="22" selection-start="2260" selection-end="2260" vertical-scroll-proportion="0.3326613" vertical-offset="464" max-vertical-offset="3893">
+        <state line="107" column="19" selection-start="3113" selection-end="3113" vertical-scroll-proportion="0.3326613" vertical-offset="923" max-vertical-offset="9945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/myfeedActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="31" selection-start="1819" selection-end="1843" vertical-scroll-proportion="-0.14717741" vertical-offset="668" max-vertical-offset="4437">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/loginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="60" selection-start="5008" selection-end="5013" vertical-scroll-proportion="0.9657258" vertical-offset="1544" max-vertical-offset="2533">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/adt-bundle-windows-x86_64-20130911/sdk/sources/android-17/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="19" selection-start="2665" selection-end="2665" vertical-scroll-proportion="0.3326613" vertical-offset="413" max-vertical-offset="34255">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/fortest/helper/SessionManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="59" selection-start="881" selection-end="891" vertical-scroll-proportion="-1.5181452" vertical-offset="1212" max-vertical-offset="2227">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/adt-bundle-windows-x86_64-20130911/sdk/sources/android-17/org/json/JSONArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="478" column="30" selection-start="15852" selection-end="15857" vertical-scroll-proportion="15.110888" vertical-offset="359" max-vertical-offset="9775">
+        <state line="11" column="13" selection-start="289" selection-end="289" vertical-scroll-proportion="-2.2278225" vertical-offset="1173" max-vertical-offset="2227">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_home.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="3" selection-start="4442" selection-end="4442" vertical-scroll-proportion="0.9830149" vertical-offset="1424" max-vertical-offset="2431">
-          <folding>
-            <element signature="e#3251#3266#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4369">
+        <state line="111" column="3" selection-start="4442" selection-end="4442" vertical-scroll-proportion="0.9830149" vertical-offset="1424" max-vertical-offset="2431">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/firstLoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="23" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="2006">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/loginActivity.java">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="16" selection-start="5018" selection-end="5018" vertical-scroll-proportion="0.0" vertical-offset="2173" max-vertical-offset="2822">
+        <state line="11" column="0" selection-start="360" selection-end="420" vertical-scroll-proportion="0.37701613" vertical-offset="0" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/helper/JsonHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="27" selection-start="868" selection-end="868" vertical-scroll-proportion="0.44161358" vertical-offset="319" max-vertical-offset="1802">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/myConversationActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/business/BuUserdata.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="84" selection-start="1387" selection-end="1465" vertical-scroll-proportion="0.80254775" vertical-offset="13" max-vertical-offset="2431">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/mymessageActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="58" selection-start="3753" selection-end="3768" vertical-scroll-proportion="-6.28" vertical-offset="1016" max-vertical-offset="4692">
+        <state line="30" column="13" selection-start="1041" selection-end="1041" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1190">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="29" selection-start="5479" selection-end="5479" vertical-scroll-proportion="0.0" vertical-offset="1382" max-vertical-offset="5406">
-          <folding>
-            <element signature="e#4708#4728#0" expanded="true" />
-            <element signature="e#4746#4767#0" expanded="true" />
-            <element signature="e#12746#12967#0" expanded="true" />
-            <element signature="e#12947#12948#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/firstLoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="63" selection-start="4446" selection-end="4467" vertical-scroll-proportion="0.0" vertical-offset="1289" max-vertical-offset="2006">
+        <state line="93" column="52" selection-start="3535" selection-end="3535" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="5525">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/HomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="54" selection-start="2544" selection-end="2632" vertical-scroll-proportion="0.0" vertical-offset="294" max-vertical-offset="1462">
+        <state line="68" column="68" selection-start="2688" selection-end="2688" vertical-scroll-proportion="0.50403225" vertical-offset="362" max-vertical-offset="1513">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/business/BuUserdata.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="40" selection-start="1963" selection-end="1963" vertical-scroll-proportion="0.0" vertical-offset="634" max-vertical-offset="1258">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#705#720#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/helper/JsonHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="34" selection-start="2058" selection-end="2058" vertical-scroll-proportion="0.43548387" vertical-offset="787" max-vertical-offset="1802">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

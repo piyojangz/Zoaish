@@ -9,6 +9,7 @@ public class ListUser {
     public static String last_name ;
     public static String about ;
     public static String location ;
+    public static String coverphoto ;
     public ListUser() {
     }
 }

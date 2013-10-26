@@ -1,8 +1,10 @@
 package com.example.fortest.activity;
+
 import com.easy.facebook.android.data.User;
 import com.example.fortest.ListItem;
 import com.example.fortest.ListUser;
 import com.example.fortest.R;
+
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -35,6 +37,7 @@ import java.util.List;
 /**
  * @author ebiz_asc1
  */
+
 public class HomeActivity extends AsyncTask<String, Void, Object> {
     private ImageView imgProfile = null;
     private ImageView imageBgProfile = null;
@@ -45,9 +48,11 @@ public class HomeActivity extends AsyncTask<String, Void, Object> {
     private GifMovieView gifView;
     private TextView txtFullName;
     private TextView txtCustomdesc;
-    public void setInstance(Activity a, Context context, View rootView) {
+    private SessionManager session;
+    public void setInstance(Activity a, Context context, View rootView,SessionManager session) {
         this.context = context;
         this.a = a;
+        this.session = session;
         this.rootView = rootView;
         this.insertPoint = (RelativeLayout) this.rootView.findViewById(R.id.customloadingGround);
         this.txtFullName = (TextView) this.rootView.findViewById(R.id.txtFullName);
@@ -56,17 +61,16 @@ public class HomeActivity extends AsyncTask<String, Void, Object> {
         this.insertPoint.addView(this.gifView);
         this.imgProfile = (ImageView) this.rootView.findViewById(R.id.imgProfile);
         this.imageBgProfile = (ImageView) this.rootView.findViewById(R.id.imageBgProfile);
-        this.txtFullName.setText(ListUser.name);
-        if(ListUser.about != null)this.txtCustomdesc.setText(ListUser.about);
-        else this.txtCustomdesc.setText("You can set custom description from setting");
-
-        SessionManager ObjuserLogin = new SessionManager(this.context);
-        HashMap<String, String> User = ObjuserLogin.getUserDetails();
-        String Fbcover =  BuUserdata.getusermemberbyfacebookcoverphoto( User.get("facebookid"));
-        Picasso.with(context).load(Fbcover).into(imageBgProfile);
-        Picasso.with(context).load("http://graph.facebook.com/"+User.get("facebookid")+"/picture?type=large").into(imgProfile);
+        ArrayList<HashMap<String, String>> MyArrList;
+        MyArrList = BuUserdata.getusermemberbyfacebookid(this.session.getUserDetails().get("facebookid"));
+        Log.d(ListItem.TAG,"MyArrList = " + MyArrList);
+        this.txtFullName.setText(MyArrList.get(0).get("name"));
+        this.txtCustomdesc.setText(MyArrList.get(0).get("about"));
+        Picasso.with(context).load(MyArrList.get(0).get("cover_photo")).into(imageBgProfile);
+        Picasso.with(context).load("http://graph.facebook.com/" + this.session.getUserDetails().get("facebookid") + "/picture?type=large").into(imgProfile);
         this.execute();
     }
+
     @Override
     protected void onPreExecute() {
         Animation anim = AnimationUtils.loadAnimation(context,

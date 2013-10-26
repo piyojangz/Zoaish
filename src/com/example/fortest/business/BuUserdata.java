@@ -2,7 +2,10 @@ package com.example.fortest.business;
 
 import android.util.Log;
 import com.example.fortest.ListItem;
+import com.example.fortest.activity.MainActivity;
 import com.example.fortest.helper.JsonHelper;
+import com.example.fortest.helper.SessionManager;
+
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONArray;
@@ -15,8 +18,11 @@ import java.util.List;
 /**
  * Created by ebiz_asc1 on 10/24/13.
  */
-public class BuUserdata {
+public class BuUserdata   {
     public static ArrayList<HashMap<String, String>> getusermemberbyfacebookid(String fbid) {
+
+
+
         String url = "http://developer.zoaish.com/webservice/getusermemberbyfacebookid/";
         List<NameValuePair> params = new ArrayList<NameValuePair>();
         params.add(new BasicNameValuePair("fbid", fbid));
@@ -26,7 +32,7 @@ public class BuUserdata {
             JSONArray data = new JSONArray(JsonHelper.getJSONUrl(url, params));
             for (int i = 0; i < data.length(); i++) {
                 JSONObject c = data.getJSONObject(i);
-
+                //Log.d(ListItem.TAG,"c = " + c);
                 map = new HashMap<String, String>();
                 map.put("id", c.getString("id"));
                 map.put("facebook_id", c.getString("facebook_id"));
@@ -34,6 +40,7 @@ public class BuUserdata {
                 map.put("email", c.getString("email"));
                 map.put("location", c.getString("location"));
                 map.put("about", c.getString("about"));
+                map.put("cover_photo", c.getString("cover_photo"));
                 MyArrList.add(map);
 
             }
@@ -63,6 +70,8 @@ public class BuUserdata {
         return coverphoto;
     }
 
+  //  public static String setUserdata(SessionManager session) {
 
+    //}
 
 }
