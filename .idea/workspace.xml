@@ -22,7 +22,9 @@
   </component>
   <component name="AndroidLayoutPreviewToolWindow">
     <option name="state">
-      <GlobalState />
+      <GlobalState>
+        <option name="visible" value="false" />
+      </GlobalState>
     </option>
   </component>
   <component name="AndroidLayouts">
@@ -30,6 +32,12 @@
       <config />
     </shared>
     <layouts>
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_home.xml">
+        <config>
+          <device>Nexus 4</device>
+          <theme>@style/CustomActionBarTheme</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/res/layout/activity_main.xml">
         <config>
           <device>Nexus 4</device>
@@ -54,13 +62,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcca8f5a-134a-47a9-9766-333875a7be3a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/circle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/myimgshopfollowing.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/business/BuUserdata.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/business/BuUserdata.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/activity/HomeActivity.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/activity/HomeActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/ListUser.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/ListUser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/activity/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/activity/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/activity/loginActivity.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/activity/loginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/fortest/activity/myfeedActivity.java" afterPath="$PROJECT_DIR$/src/com/example/fortest/activity/myfeedActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Zoaish.iml" afterPath="$PROJECT_DIR$/Zoaish.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_home.xml" afterPath="$PROJECT_DIR$/res/layout/activity_home.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/gradient_bg.xml" afterPath="$PROJECT_DIR$/res/drawable/gradient_bg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/styles.xml" afterPath="$PROJECT_DIR$/res/values/styles.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Zoaish.iws" />
@@ -398,28 +409,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="52" selection-start="3535" selection-end="3535" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="5525">
+      <file leaf-file-name="activity_home.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/layout/activity_home.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state line="280" column="21" selection-start="11368" selection-end="11368" vertical-scroll-proportion="0.0" vertical-offset="4107" max-vertical-offset="4981">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuUserdata.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/fortest/business/BuUserdata.java">
+      <file leaf-file-name="myConversationActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/myConversationActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="13" selection-start="1041" selection-end="1041" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1190">
+            <state line="60" column="149" selection-start="2763" selection-end="2877" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="2720">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HomeActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/HomeActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="68" selection-start="2688" selection-end="2688" vertical-scroll-proportion="0.50403225" vertical-offset="362" max-vertical-offset="1513">
+            <state line="166" column="30" selection-start="6706" selection-end="6706" vertical-scroll-proportion="0.0" vertical-offset="1715" max-vertical-offset="2601">
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myimgshopfollowing.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/myimgshopfollowing.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="15" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
@@ -444,22 +472,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/drawable/bg_fbbutton.xml" />
-        <option value="$PROJECT_DIR$/res/drawable/bg_zoaishbutton.xml" />
-        <option value="$PROJECT_DIR$/res/drawable/bg_zoaishbuttonunselected.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/fortest/activity/myConversationActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/example/fortest/helper/SessionManager.java" />
-        <option value="$PROJECT_DIR$/src/com/example/fortest/helper/JasonHelper.java" />
-        <option value="$PROJECT_DIR$/res/layout/activity_home.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/fortest/ListUser.java" />
-        <option value="$PROJECT_DIR$/src/com/example/fortest/activity/loginActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/fortest/activity/firstLoginActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/fortest/activity/myfeedActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/fortest/helper/JsonHelper.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/fortest/activity/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/fortest/business/BuUserdata.java" />
+        <option value="$PROJECT_DIR$/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/circle.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/gradient_bg.xml" />
+        <option value="$PROJECT_DIR$/res/layout/attrib_row.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/fortest/activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/fortest/custom/LazyAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/example/fortest/activity/myConversationActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/myimgshopfollowing.xml" />
+        <option value="$PROJECT_DIR$/res/layout/activity_home.xml" />
         <option value="$PROJECT_DIR$/src/com/example/fortest/activity/HomeActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -499,6 +527,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -527,97 +556,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fortest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fortest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fortest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="business" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fortest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zoaish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -659,14 +603,17 @@
       <recent name="com.example.fortest.custom" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\Zoaish\res\layout" />
+      <recent name="D:\project\Zoaish\res\drawable" />
       <recent name="D:\AndroidProject\Zoaish\res\drawable" />
       <recent name="D:\AndroidProject\Zoaish\res\drawable-hdpi" />
       <recent name="D:\AndroidProject\Zoaish\src\com\example\fortest\helper" />
-      <recent name="D:\AndroidProject\Zoaish\res\layout" />
-      <recent name="D:\Zoaish\libs" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.facebook.widget" />
+      <recent name="com.example.fortest" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.fortest" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -675,9 +622,6 @@
       <recent name="D:\Zoaish\res\layout\list" />
       <recent name="D:\Zoaish\res\layout\bg" />
       <recent name="D:\Zoaish\res\layout\tab" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.example.fortest" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.Zoaish">
@@ -802,6 +746,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
@@ -820,6 +765,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
@@ -840,6 +786,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
@@ -860,6 +807,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
@@ -941,7 +889,11 @@
       <created>1382630028626</created>
       <updated>1382630028626</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="breeshy">
+      <created>1382763575961</created>
+      <updated>1382763575961</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -969,33 +921,39 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31837606" sideWeight="0.577951" order="5" side_tool="true" content_ui="tabs" x="764" y="175" width="714" height="706" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25653595" sideWeight="0.85065883" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41993463" sideWeight="0.11054173" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25612473" sideWeight="0.85065883" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24832962" sideWeight="0.23265742" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.77107793" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42" sideWeight="0.8894583" order="4" side_tool="false" content_ui="combo" x="23" y="262" width="1320" height="203" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21024828" sideWeight="0.46396396" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24832962" sideWeight="0.76734257" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29955456" sideWeight="0.88633937" order="4" side_tool="false" content_ui="combo" x="23" y="262" width="1320" height="203" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24924242" sideWeight="0.65704584" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.57240206" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21024546" sideWeight="0.5788889" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2611111" sideWeight="0.84311634" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922912" sideWeight="0.57240206" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21024546" sideWeight="0.536036" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2588889" sideWeight="0.879936" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.76948774" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.6683006" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3035332" sideWeight="0.577951" order="5" side_tool="true" content_ui="tabs" x="764" y="175" width="714" height="706" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1012,120 +970,180 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_home.xml">
+      <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4369">
+      <provider editor-type-id="text-editor">
+        <state line="280" column="21" selection-start="11368" selection-end="11368" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4981">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/myConversationActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="84" selection-start="1387" selection-end="1465" vertical-scroll-proportion="0.80254775" vertical-offset="13" max-vertical-offset="2431" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/mymessageActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="58" selection-start="3753" selection-end="3768" vertical-scroll-proportion="-0.891129" vertical-offset="1615" max-vertical-offset="4692">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/ListUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="35" selection-start="323" selection-end="333" vertical-scroll-proportion="0.37701613" vertical-offset="0" max-vertical-offset="496">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/adt-bundle-windows-x86_64-20130911/sdk/sources/android-17/android/content/ContextWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="19" selection-start="3113" selection-end="3113" vertical-scroll-proportion="0.3326613" vertical-offset="923" max-vertical-offset="9945">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/myfeedActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="31" selection-start="1819" selection-end="1843" vertical-scroll-proportion="-0.14717741" vertical-offset="668" max-vertical-offset="4437">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/loginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="60" selection-start="5008" selection-end="5013" vertical-scroll-proportion="0.9657258" vertical-offset="1544" max-vertical-offset="2533">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/adt-bundle-windows-x86_64-20130911/sdk/sources/android-17/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="19" selection-start="2665" selection-end="2665" vertical-scroll-proportion="0.3326613" vertical-offset="413" max-vertical-offset="34255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/helper/SessionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="289" selection-end="289" vertical-scroll-proportion="-2.2278225" vertical-offset="1173" max-vertical-offset="2227">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_home.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="3" selection-start="4442" selection-end="4442" vertical-scroll-proportion="0.9830149" vertical-offset="1424" max-vertical-offset="2431">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/firstLoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="23" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="2006">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="360" selection-end="420" vertical-scroll-proportion="0.37701613" vertical-offset="0" max-vertical-offset="748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/helper/JsonHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="27" selection-start="868" selection-end="868" vertical-scroll-proportion="0.44161358" vertical-offset="319" max-vertical-offset="1802">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/business/BuUserdata.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="13" selection-start="1041" selection-end="1041" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1190">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="52" selection-start="3535" selection-end="3535" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="5525">
+        <state line="60" column="149" selection-start="2763" selection-end="2877" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="2720">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/HomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="68" selection-start="2688" selection-end="2688" vertical-scroll-proportion="0.50403225" vertical-offset="362" max-vertical-offset="1513">
+        <state line="158" column="0" selection-start="6442" selection-end="6442" vertical-scroll-proportion="0.0" vertical-offset="2601" max-vertical-offset="2601">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/myimgshopfollowing.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="15" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/menulist_row.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="19" selection-start="1809" selection-end="1809" vertical-scroll-proportion="0.73391306" vertical-offset="513" max-vertical-offset="1088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/myconversationlistview.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="2276" selection-end="2276" vertical-scroll-proportion="0.76869565" vertical-offset="561" max-vertical-offset="1139">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/myfeed_list.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="29" selection-start="3231" selection-end="3231" vertical-scroll-proportion="0.5269565" vertical-offset="1329" max-vertical-offset="1904">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/list_row.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_blank.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="24" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="2142">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/adt-bundle-windows-x86_64-20130911/sdk/sources/android-17/android/view/ViewGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="22" selection-start="2988" selection-end="2988" vertical-scroll-proportion="0.33333334" vertical-offset="395" max-vertical-offset="107389" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/custom/LazyAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="45" selection-start="760" selection-end="780" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="2057">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/adt-bundle-windows-x86_64-20130911/sdk/sources/android-17/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9999" column="34" selection-start="387186" selection-end="387186" vertical-scroll-proportion="0.33222592" vertical-offset="166927" max-vertical-offset="309026" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/mylist.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="28" selection-start="447" selection-end="447" vertical-scroll-proportion="0.29462737" vertical-offset="0" max-vertical-offset="577">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/mylistview.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="17" selection-start="463" selection-end="463" vertical-scroll-proportion="0.3830156" vertical-offset="0" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/adt-bundle-windows-x86_64-20130911/sdk/sources/android-17/android/widget/ImageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="13" selection-start="2238" selection-end="2238" vertical-scroll-proportion="0.30864197" vertical-offset="174" max-vertical-offset="19380" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="114" selection-start="4790" selection-end="4882" vertical-scroll-proportion="-4.0946846" vertical-offset="3774" max-vertical-offset="5525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/myConversationActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="149" selection-start="2763" selection-end="2877" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2431">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/myimgshopfollowing.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="15" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/fortest/activity/HomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="166" column="30" selection-start="6706" selection-end="6706" vertical-scroll-proportion="0.0" vertical-offset="1715" max-vertical-offset="2601">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="36" selection-start="287" selection-end="287" vertical-scroll-proportion="0.22442244" vertical-offset="0" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_home.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="280" column="21" selection-start="11368" selection-end="11368" vertical-scroll-proportion="0.0" vertical-offset="4107" max-vertical-offset="4981">
           <folding />
         </state>
       </provider>
