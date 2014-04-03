@@ -22,7 +22,8 @@ import android.widget.RelativeLayout;
 
 import com.example.fortest.ListItem;
 import com.example.fortest.helper.SessionManager;
-
+import com.example.fortest.helper.JsonHelper;
+import org.apache.http.NameValuePair;
 /**
  * Created by ebiz_asc1 on 10/2/13.
  */
@@ -50,6 +51,7 @@ public class myfeedActivity extends AsyncTask<String, Void, Object> {
     private View rootView;
     private GifMovieView gifView;
     private SessionManager session;
+
     public void create_feed(Activity a, Context context, ListView lv, View rootView,SessionManager session) {
         this.context = context;
         this.a = a;
@@ -98,6 +100,14 @@ public class myfeedActivity extends AsyncTask<String, Void, Object> {
 
 
     protected ArrayList<HashMap<String, String>> loadData(int limit) {
+
+        String url = "http://services.zoaish.com/getfeedlist";
+        List<NameValuePair> params = new ArrayList<NameValuePair>();
+        //params.add(new  Array("userid ", "1"));
+       // params.add(new Array("pagefrom ", "0"));
+       // params.add(new Array("pagesize ", "10"));
+        String result =  JsonHelper.getJSONUrl(url,params);
+
 
         Log.d(TAG, "loadData...");
 
