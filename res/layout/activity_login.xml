@@ -1,59 +1,12 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="10dip">
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- Email Label -->
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Username (Enter 'test')"
-        android:singleLine="true"
-        android:layout_marginBottom="5dip" />
 
-    <!-- Email input text -->
-    <EditText
-        android:id="@+id/txtUsername"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dip" />
 
-    <!-- Password Label -->
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Password (Enter 'test')"
-        android:layout_marginBottom="5dip" />
 
-    <!-- Password input text -->
-    <EditText
-        android:id="@+id/txtPassword"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dip"
-        android:password="true"
-        android:singleLine="true" />
-
-    <!-- Login button -->
-    <Button
-        android:id="@+id/btn_login"
-        android:layout_width="fill_parent"
-        android:background="@drawable/btnzoaish_selector"
-        android:layout_height="wrap_content"
-        android:textColor="#fff"
-        android:text="Login with Zoaish account" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Or"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
-        android:id="@+id/textView"
-        android:layout_gravity="center_horizontal" />
 
     <Button
         android:id="@+id/btn_loginwithfacebook"
@@ -61,8 +14,9 @@
         android:layout_height="wrap_content"
         android:text="Login with facebook"
         android:background="@drawable/btnfb_selector"
+        android:layout_centerInParent="true"
         android:textColor="#fff"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_vertical|center_horizontal" />
 
 
-</LinearLayout>
+</RelativeLayout>

@@ -87,7 +87,7 @@ public class mymessageActivity extends AsyncTask<String, Void, Object> {
             }
         });
 
-        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        this.lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                 Intent myIntent = new Intent(mymessageActivity.a, myConversationActivity.class);

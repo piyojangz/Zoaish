@@ -2,11 +2,16 @@ package com.example.fortest.activity;
 
 import com.example.fortest.helper.GifMovieView;
 import com.example.fortest.custom.myfeedAdapter;
+import com.example.fortest.pages.feed_detail;
 import com.example.fortest.R;
+
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 
+import android.content.Intent;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -17,13 +22,19 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.AbsListView;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 
 import com.example.fortest.ListItem;
 import com.example.fortest.helper.SessionManager;
 import com.example.fortest.helper.JsonHelper;
+
 import org.apache.http.NameValuePair;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 /**
  * Created by ebiz_asc1 on 10/2/13.
  */
@@ -36,8 +47,9 @@ public class myfeedActivity extends AsyncTask<String, Void, Object> {
     protected ArrayList<HashMap<String, String>> sList;
     protected HashMap<String, String> map;
     public ListView lv;
-    public Activity a;
+    Activity a;
     private static final String TAG = "MyActivity";
+    private static final String TAGSERVICE = "Service";
     public myfeedAdapter myfeed;
     private ProgressDialog dialog;
     protected int limit = 0;
@@ -52,7 +64,7 @@ public class myfeedActivity extends AsyncTask<String, Void, Object> {
     private GifMovieView gifView;
     private SessionManager session;
 
-    public void create_feed(Activity a, Context context, ListView lv, View rootView,SessionManager session) {
+    public void create_feed(final Activity a, final Context context, ListView lv, View rootView, SessionManager session) {
         this.context = context;
         this.a = a;
         this.lv = lv;
@@ -96,20 +108,59 @@ public class myfeedActivity extends AsyncTask<String, Void, Object> {
                 }
             }
         });
+
+
+        this.lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+
+                // a.finish();
+
+                String FEED_ID = sList.get(i).get(ListItem.KEY_MYFEED_ITEMID).toString();
+                String FEED_TITLE = sList.get(i).get(ListItem.KEY_MYFEED_ITEMTITLE).toString();
+                Intent myIntent = new Intent(a, feed_detail.class);
+                myIntent.putExtra(ListItem.KEY_MYFEED_ITEMID, FEED_ID);
+                myIntent.putExtra(ListItem.KEY_MYFEED_ITEMTITLE, FEED_TITLE);
+                a.startActivity(myIntent);
+            }
+        });
+
     }
 
 
     protected ArrayList<HashMap<String, String>> loadData(int limit) {
 
-        String url = "http://services.zoaish.com/getfeedlist";
+        String url = "http://services.zoaish.com/services/getfeedlist";
+        //http://www.learn2crack.com/2013/11/listview-from-json-example.html
+        //http://api.learn2crack.com/android/jsonos/
         List<NameValuePair> params = new ArrayList<NameValuePair>();
         //params.add(new  Array("userid ", "1"));
-       // params.add(new Array("pagefrom ", "0"));
-       // params.add(new Array("pagesize ", "10"));
-        String result =  JsonHelper.getJSONUrl(url,params);
+        // params.add(new Array("pagefrom ", "0"));
+        // params.add(new Array("pagesize ", "10"));
+        String result = JsonHelper.getJSONUrl(url, params);
+        try {
+            JSONObject jsonObject = new JSONObject(result);
+            JSONArray data = jsonObject.getJSONArray("data");
+            Log.d(TAGSERVICE, "aaaaaa..." + data.length());
+            String str = null;
 
+            for (int i = 0; i < data.length(); i++) {
+                JSONObject c = data.getJSONObject(i);
+                map = new HashMap<String, String>();
+                map.put(ListItem.KEY_MYFEED_ITEMID, c.getString(ListItem.KEY_MYFEED_ITEMID));
+                map.put(ListItem.KEY_MYFEED_ITEMUSERID, c.getString(ListItem.KEY_MYFEED_ITEMUSERID));
+                map.put(ListItem.KEY_MYFEED_ITEMUSERIMG, c.getString(ListItem.KEY_MYFEED_ITEMUSERIMG));
+                map.put(ListItem.KEY_MYFEED_ITEMIMG, c.getString(ListItem.KEY_MYFEED_ITEMIMG));
+                map.put(ListItem.KEY_MYFEED_ITEMTITLE, c.getString(ListItem.KEY_MYFEED_ITEMTITLE));
+                map.put(ListItem.KEY_MYFEED_ITEMAREA, c.getString(ListItem.KEY_MYFEED_ITEMAREA));
+                map.put(ListItem.KEY_MYFEED_ITEMDESCRIPTION, c.getString(ListItem.KEY_MYFEED_ITEMDESCRIPTION));
+                this.sList.add(map);
+            }
 
-        Log.d(TAG, "loadData...");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+/*
 
         map = new HashMap<String, String>();
         map.put(ListItem.KEY_MYFEED_ITEMID, "1");
@@ -122,7 +173,7 @@ public class myfeedActivity extends AsyncTask<String, Void, Object> {
         this.sList.add(map);
 
         map = new HashMap<String, String>();
-        map.put(ListItem.KEY_MYFEED_ITEMID, "1");
+        map.put(ListItem.KEY_MYFEED_ITEMID, "2");
         map.put(ListItem.KEY_MYFEED_ITEMUSERID, "711");
         map.put(ListItem.KEY_MYFEED_ITEMUSERIMG, "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/s160x160/1234628_10200284569510711_494409731_a.jpg");
         map.put(ListItem.KEY_MYFEED_ITEMIMG, "http://www.macthai.com/wp-content/uploads/2012/11/2013-imac.jpeg");
@@ -132,7 +183,7 @@ public class myfeedActivity extends AsyncTask<String, Void, Object> {
         this.sList.add(map);
 
         map = new HashMap<String, String>();
-        map.put(ListItem.KEY_MYFEED_ITEMID, "1");
+        map.put(ListItem.KEY_MYFEED_ITEMID, "3");
         map.put(ListItem.KEY_MYFEED_ITEMUSERID, "711");
         map.put(ListItem.KEY_MYFEED_ITEMUSERIMG, "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash4/c44.44.550.550/s160x160/397061_346994718654706_1100389685_n.jpg");
         map.put(ListItem.KEY_MYFEED_ITEMIMG, "http://www.ukorat.com/wp-content/uploads/2013/05/iphone-5-app-store.jpg");
@@ -153,7 +204,7 @@ public class myfeedActivity extends AsyncTask<String, Void, Object> {
             map.put(ListItem.KEY_MYFEED_ITEMAREA, "jatujak , 3.0 Km.");
             map.put(ListItem.KEY_MYFEED_ITEMDESCRIPTION, "Lorem ipsum dolor sit amet, posuere nullam euismod, non nec ac, et justo eros sapien consectetuer.");
             this.sList.add(map);
-        }
+        }*/
 
         return this.sList;
     }
