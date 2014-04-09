@@ -195,7 +195,7 @@ public class itemActivity extends AsyncTask<String, Void, Object> {
     }
 
     @Override
-    protected void onPostExecute(Object result) {
+    protected  void onPostExecute(Object result) {
         myfeed = new mymessageAdapter(this.a, this.sList);
         this.lv.setAdapter(myfeed);
         // Pass the result data back to the main activity
