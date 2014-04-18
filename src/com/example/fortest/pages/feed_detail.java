@@ -35,7 +35,7 @@ public class feed_detail extends Activity {
         this.KEY_FEEDID = getIntent().getStringExtra(ListItem.KEY_MYFEED_ITEMID);
         this.KEY_FEEDTITLE = getIntent().getStringExtra(ListItem.KEY_MYFEED_ITEMTITLE);
         getActionBar().setTitle(this.KEY_FEEDTITLE);
-        setContentView(R.layout.activity_blank);
+        setContentView(R.layout.feed_detail);
 
 
         Log.d(TAG, "We loaded..." + this.KEY_FEEDID);
