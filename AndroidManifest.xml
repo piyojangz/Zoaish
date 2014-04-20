@@ -33,6 +33,7 @@
         <activity android:name=".activity.myConversationActivity" />
         <activity android:name=".activity.loginActivity" />
         <activity android:name=".activity.firstLoginActivity" />
+        <activity android:name=".pages.feed_detail" />
 
     </application>
 

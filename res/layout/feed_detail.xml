@@ -1,0 +1,156 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ddd"
+        tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:id="@+id/profileConsole"
+            android:layout_width="match_parent"
+            android:background="@drawable/bg"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgProfile"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sample_item"
+                android:scaleType="centerCrop" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/socialtool"
+            android:layout_width="match_parent"
+            android:background="#ffffff"
+            android:layout_height="60dp"
+            android:layout_marginTop="220dp"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dip" >
+
+                    <Button
+                        android:id="@+id/button1"
+                        android:text="Column 1" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:text="Column 2" />
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:text="Column 3" />
+                </TableRow>
+
+                </TableLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/detail"
+            android:layout_width="match_parent"
+            android:background="#ddd"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_below="@+id/socialtool"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="match_parent">
+
+                <FrameLayout
+                    android:id="@+id/thumbnail"
+                    android:layout_width="50dip"
+                    android:layout_height="50dip"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="5dip"
+                    android:background="@drawable/circle1">
+
+                    <ImageView
+                        android:id="@+id/imgUser"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop" />
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:id="@+id/cardbox1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bubble2"
+                    android:alpha="0.70"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="15dp"
+                    android:layout_toRightOf="@+id/thumbnail"
+                    android:layout_alignParentRight="true">
+
+                    <TextView
+                        android:id="@+id/txt_card"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:text="Sell computer just but from $44 now"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left" />
+                </FrameLayout>
+
+
+            </RelativeLayout>
+
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="0.81">s
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/lorem3"
+                    android:textColor="#ff434343"
+                    android:shadowRadius="2"
+                    android:paddingLeft="5dp"
+                    android:lineSpacingExtra="1dp"
+                    android:id="@+id/txtdesc"
+                    android:layout_marginBottom="5dp"
+                    android:layout_gravity="center|bottom" />
+
+            </FrameLayout>
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+</android.support.v4.widget.DrawerLayout>

@@ -56,8 +56,8 @@ android:layout_height="wrap_content">
         android:layout_marginLeft="55dp">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:textSize="16dp"
             android:layout_marginTop="2dp"
             android:text="Sell iPad mini 16 gb"
@@ -100,8 +100,7 @@ android:layout_height="wrap_content">
         android:paddingLeft="10dp"
         android:paddingBottom="5dp"
         android:paddingRight="10dp"
-        android:paddingTop="2dp"
-        android:layout_alignLeft="@+id/img_myfeed" />
+        android:paddingTop="2dp" />
 </RelativeLayout>
 </FrameLayout>
 </LinearLayout>
