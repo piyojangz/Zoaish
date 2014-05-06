@@ -84,8 +84,8 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_blank);
         this.ISLOGIN = getIntent().getStringExtra("IS_LOGIN");
-        session = new SessionManager(getApplicationContext());
-        session.checkLogin();
+        //session = new SessionManager(getApplicationContext());
+        //session.checkLogin();
         typeFace = Typeface.createFromAsset(this.getAssets(), "fonts/HelveticaNeueLight.ttf");
         mTitle = mDrawerTitle = getTitle();
         getActionBar().setDisplayHomeAsUpEnabled(true);

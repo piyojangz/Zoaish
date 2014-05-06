@@ -130,37 +130,8 @@ public class myfeedActivity extends AsyncTask<String, Void, Object> {
 
     protected ArrayList<HashMap<String, String>> loadData(int limit) {
 
-        String url = "http://services.zoaish.com/services/getfeedlist";
-        //http://www.learn2crack.com/2013/11/listview-from-json-example.html
-        //http://api.learn2crack.com/android/jsonos/
-        List<NameValuePair> params = new ArrayList<NameValuePair>();
-        //params.add(new  Array("userid ", "1"));
-        // params.add(new Array("pagefrom ", "0"));
-        // params.add(new Array("pagesize ", "10"));
-        String result = JsonHelper.getJSONUrl(url, params);
-        try {
-            JSONObject jsonObject = new JSONObject(result);
-            JSONArray data = jsonObject.getJSONArray("data");
-            Log.d(TAGSERVICE, "aaaaaa..." + data.length());
-            String str = null;
+//http://services.zoaish.com/services/getfeedlist
 
-            for (int i = 0; i < data.length(); i++) {
-                JSONObject c = data.getJSONObject(i);
-                map = new HashMap<String, String>();
-                map.put(ListItem.KEY_MYFEED_ITEMID, c.getString(ListItem.KEY_MYFEED_ITEMID));
-                map.put(ListItem.KEY_MYFEED_ITEMUSERID, c.getString(ListItem.KEY_MYFEED_ITEMUSERID));
-                map.put(ListItem.KEY_MYFEED_ITEMUSERIMG, c.getString(ListItem.KEY_MYFEED_ITEMUSERIMG));
-                map.put(ListItem.KEY_MYFEED_ITEMIMG, c.getString(ListItem.KEY_MYFEED_ITEMIMG));
-                map.put(ListItem.KEY_MYFEED_ITEMTITLE, c.getString(ListItem.KEY_MYFEED_ITEMTITLE));
-                map.put(ListItem.KEY_MYFEED_ITEMAREA, c.getString(ListItem.KEY_MYFEED_ITEMAREA));
-                map.put(ListItem.KEY_MYFEED_ITEMDESCRIPTION, c.getString(ListItem.KEY_MYFEED_ITEMDESCRIPTION));
-                this.sList.add(map);
-            }
-
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-/*
 
         map = new HashMap<String, String>();
         map.put(ListItem.KEY_MYFEED_ITEMID, "1");
@@ -204,7 +175,7 @@ public class myfeedActivity extends AsyncTask<String, Void, Object> {
             map.put(ListItem.KEY_MYFEED_ITEMAREA, "jatujak , 3.0 Km.");
             map.put(ListItem.KEY_MYFEED_ITEMDESCRIPTION, "Lorem ipsum dolor sit amet, posuere nullam euismod, non nec ac, et justo eros sapien consectetuer.");
             this.sList.add(map);
-        }*/
+        }
 
         return this.sList;
     }

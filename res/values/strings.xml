@@ -27,4 +27,5 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
     <string name="drawer_close">Close navigation drawer</string>
     <string name="action_websearch">Web search</string>
     <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="facebook_app_id">Sorry, there\'s no web browser availabl</string>
 </resources>
